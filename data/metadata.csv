@@ -1,0 +1,3 @@
+song_id,file_name,title,artist,subgenre,bpm,key,mood,lead_instrument,structure_notes,status
+santafesina_001,ejemplo_cancion_1.mp3,Ejemplo Titulo 1,Los Palmeras,santafesina,102,Am,desamor,acordeon,intro-verso-estribillo-punteo-outro,pending
+villera_001,ejemplo_cancion_2.mp3,Ejemplo Titulo 2,Damas Gratis,villera,92,Dm,fiesta_barrial,sintetizador,intro-verso-estribillo-corte-outro,pending
