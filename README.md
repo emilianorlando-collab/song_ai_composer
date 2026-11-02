@@ -8,33 +8,75 @@ A diferencia de los modelos generativos monolíticos de audio a audio ("cajas ne
 
 ## 🏛️ Arquitectura del Sistema
 
+El sistema implementa una canalización jerárquica desacoplada que separa la percepción acústica, el modelado probabilístico de composición y la síntesis neural de audio.
+
+```mermaid
+flowchart TD
+    classDef inputStyle fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#01579b;
+    classDef layerStyle fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#4a148c;
+    classDef repStyle fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20;
+    classDef prodStyle fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#e65100;
+
+    subgraph Inputs["1. Ingesta Multimodal"]
+        InAudio["Audio Crudo (Notas de voz / Ensayos)"]:::inputStyle
+        InText["Letras / Restricciones Semánticas"]:::inputStyle
+        InDirectives["Directivas de Edición / Inpainting"]:::inputStyle
+    end
+
+    subgraph MIR["2. Capa de Extracción Simbólica & Acústica (MIR)"]
+        Demucs["Separación de Fuentes (Demucs / Roformer)"]:::layerStyle
+        PitchTracker["Estimación F0 & Onset (pYIN / Basic Pitch)"]:::layerStyle
+        BeatTracker["Seguimiento Métrico & Croma (Tempo / Key / Downbeats)"]:::layerStyle
+        ForcedAligner["Alineación Fonema-Tiempo (CTC / WhisperX)"]:::layerStyle
+    end
+
+    subgraph Representation["3. Espacio de Representación Unificado"]
+        ScoreGraph["Grafo Simbólico Multitrack (Eventos MIDI, Duraciones, Síncopas)"]:::repStyle
+        ProsodyMap["Alineación Prosódica (Acentos Léxicos vs. Tiempos Fuertes)"]:::repStyle
+        EmotionVector["Vector de Condicionamiento Semántico (Valence / Arousal)"]:::repStyle
+    end
+
+    subgraph Composer["4. Motor Compositivo Simbólico"]
+        HarmonicEngine["Modelo de Transición Armónica & Progresiones"]:::layerStyle
+        PhrasingEngine["Generador de Fraseo Elástico & Silencios"]:::layerStyle
+        DialogueEngine["Lógica de Interacción (Llamada y Respuesta)"]:::layerStyle
+    end
+
+    subgraph Studio["5. Motor de Producción & Inpainting Quirúrgico"]
+        MaskController["Máscara de Inpainting (Selección de Compases / Stems)"]:::prodStyle
+        NeuralSynth["Síntesis Multitrack & Resíntesis Neural (DDSP / Samplers)"]:::prodStyle
+        MasterOut["Audio Master Final (Stems & Mezcla Estéreo)"]:::prodStyle
+    end
+
+    InAudio --> Demucs
+    Demucs --> PitchTracker
+    Demucs --> BeatTracker
+    InText --> ForcedAligner
+    
+    PitchTracker --> ScoreGraph
+    BeatTracker --> ScoreGraph
+    ForcedAligner --> ProsodyMap
+    InText --> EmotionVector
+
+    ScoreGraph --> Composer
+    ProsodyMap --> Composer
+    EmotionVector --> Composer
+
+    Composer --> MaskController
+    InDirectives --> MaskController
+    MaskController --> NeuralSynth
+    NeuralSynth --> MasterOut
 ```
-┌────────────────────────────────────────────────────────────────────────┐
-│ 1. EL OÍDO (Extracción Simbólica & Music Information Retrieval - MIR)  │
-│   • Ingesta multimodal: Textos, melodías tarareadas / notas de voz.    │
-│   • Separación de fuentes (Stems): Voz, Bajo, Batería/Percusión, Armonía│
-│   • Transcripción Audio-to-MIDI de alta precisión de tono y ritmo.     │
-│   • Alineación prosódica: Sincronización fonema-a-tiempo métrico.      │
-└───────────────────────────────────┬────────────────────────────────────┘
-                                    │
-                                    ▼
-┌────────────────────────────────────────────────────────────────────────┐
-│ 2. EL CEREBRO (Motor Compositivo Simbólico & Emoción)                  │
-│   • Mapeo Emocional: Traducción de sentimiento lírico a modos/escalas. │
-│   • Fraseo Elástico: Anacrusas, síncopas, pausas y variabilidad métrica│
-│   • Dinámica de Llamada y Respuesta (diálogo voz-instrumento solista). │
-│   • Reglas de tensión armónica, progresiones y transiciones modales.   │
-└───────────────────────────────────┬────────────────────────────────────┘
-                                    │
-                                    ▼
-┌────────────────────────────────────────────────────────────────────────┐
-│ 3. EL ESTUDIO (Renderizado Multitrack & Edición Quirúrgica)            │
-│   • Renderizado multitrack independiente con samples y VSTs de estudio.│
-│   • Síntesis neuronal de voz y timbres acústicos.                     │
-│   • Inpainting Musical: Regeneración selectiva de compases o pistas    │
-│     específicas a pedido del usuario sin alterar el resto de la obra.  │
-└────────────────────────────────────────────────────────────────────────┘
-```
+
+### Especificación Formal de Componentes
+
+| Subsistema | Espacio de Entrada ($\mathcal{X}$) | Modelos / Algoritmos | Espacio de Representación ($\mathcal{Y}$) |
+| :--- | :--- | :--- | :--- |
+| **Acoustic MIR Pipeline** | Forma de onda discreta $x(t) \in \mathbb{R}^{T}$ | Conv-TasNet / Hybrid Demucs, Basic Pitch | Stems aislados $\{S_{\text{bass}}, S_{\text{perc}}, S_{\text{harm}}, S_{\text{vox}}\}$ |
+| **Pitch & Metric Extractor** | Pistas aisladas $S_i(t)$ | pYIN / Mel-Filterbanks, Beat Trackers | Curvas $F_0(t)$, Grid métrico (BPM, Downbeats), Chroma |
+| **Prosodic Aligner** | $S_{\text{vox}}(t)$ + Transcripción textual | Wav2Vec2 / CTC Forced Alignment | Matriz de alineación fonema-tiempo $\tau(p_k) \in [t_{\text{start}}, t_{\text{end}}]$ |
+| **Composition Engine** | Grafo simbólico + Vector $\mathbf{v}_{\text{emotion}}$ | Probabilistic Sequence Models / Prior Transformers | Matriz de eventos polifónicos (Notas, síncopas, pausas) |
+| **Surgical Inpainting** | Stems existentes + Máscara $\mathbf{M} \in \{0, 1\}^{B \times K}$ | Inpainting condicionado por contexto musical | Regeneración localizada de compases $B$ en pistas $K$ |
 
 ---
 
