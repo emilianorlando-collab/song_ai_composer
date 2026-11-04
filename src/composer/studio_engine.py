@@ -193,23 +193,29 @@ class StudioMixer:
         print(f"🎚️  CONSOLA DE MEZCLA Y MASTERIZACIÓN: {session_name}")
         print(f"=======================================================")
 
-        # Encontrar longitud máxima
-        max_samples = max(
-            a.shape[-1] if a.ndim == 2 else len(a) 
-            for a in multitrack_audio_dict.values()
-        )
+        # Normalizar todas las pistas a formato [2, N] (estéreo)
+        normalized_tracks = {}
+        for ch_name, raw in multitrack_audio_dict.items():
+            if raw.ndim == 1:
+                normalized_tracks[ch_name] = np.stack([raw, raw], axis=0)
+            elif raw.ndim == 2:
+                if raw.shape[0] == 2:
+                    normalized_tracks[ch_name] = raw
+                else:
+                    normalized_tracks[ch_name] = raw.T
 
+        # Encontrar longitud máxima en muestras
+        max_samples = max(track.shape[1] for track in normalized_tracks.values())
         sum_bus = np.zeros((2, max_samples), dtype=np.float32)
         processed_stems = {}
 
-        for ch_name, raw_audio in multitrack_audio_dict.items():
+        for ch_name, stereo in normalized_tracks.items():
             # Pad a longitud uniforme
-            curr_len = raw_audio.shape[-1] if raw_audio.ndim == 2 else len(raw_audio)
-            if raw_audio.ndim == 1:
-                padded = np.pad(raw_audio, (0, max_samples - curr_len))
-                stereo_padded = np.stack([padded, padded], axis=0)
+            curr_len = stereo.shape[1]
+            if curr_len < max_samples:
+                stereo_padded = np.pad(stereo, ((0, 0), (0, max_samples - curr_len)))
             else:
-                stereo_padded = np.pad(raw_audio if raw_audio.shape[0] == 2 else raw_audio.T, ((0, 0), (0, max_samples - curr_len)))
+                stereo_padded = stereo[:, :max_samples]
 
             # Procesar pista por su Channel Strip
             dry_stem, wet_stem = self.process_channel(ch_name, stereo_padded)

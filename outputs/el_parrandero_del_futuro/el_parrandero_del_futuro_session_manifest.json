@@ -6,7 +6,7 @@
   "sample_rate": 44100,
   "duracion_segundos": 73.14,
   "master_peak_dbfs": -0.18000000715255737,
-  "master_rms_dbfs": -11.260000228881836,
+  "master_rms_dbfs": -14.40999984741211,
   "canales_procesados": [
     "01_guiro",
     "02_bombo",

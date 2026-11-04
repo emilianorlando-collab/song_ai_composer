@@ -5,8 +5,9 @@ from src.composer.multimodal_input import MultimodalInputHandler
 from src.composer.symbolic_tokenizer import SymbolicMultitrackTokenizer
 from src.composer.multitrack_transformer import MultitrackCrossAttentionTransformer
 from src.composer.critic_evaluator import MusicCriticEvaluator
-from src.synthesizer.studio_synthesizer import StudioSynthesizer
+from src.synthesizer.real_instrument_engine import RealInstrumentEngine
 from src.composer.studio_engine import StudioMixer
+import torch
 
 class SongAIOrchestrator:
     """
@@ -15,9 +16,9 @@ class SongAIOrchestrator:
     Integra de punta a punta todas las fases de un estudio de grabación:
     1. Pre-Producción Multimodal (Prompt, Letra, Tarareo o Zero-shot)
     2. Composición Lírica y Métrica con pausas expresivas
-    3. Generación Neuronal Multitrack (Multitrack Transformer en PyTorch)
+    3. Generación Neuronal Multitrack con Transformer entrenado en PyTorch
     4. Auditoría Crítica e Inpainting Quirúrgico de Corrección
-    5. Grabación y Síntesis Multicanal de Alta Fidelidad
+    5. Grabación y Recombinación Acústica de Estudio con Instrumentos REALES del Dataset
     6. Mezcla y Masterización Automatizada de Estudio (-14 LUFS / True Peak Limiter)
     7. Entrega Profesional: Master WAV + Pack de 8 Stems DAW + Letra + Manifiesto
     """
@@ -26,9 +27,18 @@ class SongAIOrchestrator:
         self.outputs_root = outputs_root
         self.input_handler = MultimodalInputHandler()
         self.tokenizer = SymbolicMultitrackTokenizer()
+        
+        # Cargar el Transformer Neuronal Profundo
         self.neural_composer = MultitrackCrossAttentionTransformer(self.tokenizer.vocab_sizes)
+        weights_path = "models/cumbia_transformer_weights.pt"
+        if os.path.exists(weights_path):
+            self.neural_composer.load_state_dict(torch.load(weights_path, map_location="cpu"))
+            print(f"[IA] Pesos neuronales entrenados cargados con éxito desde: {weights_path}")
+        else:
+            print("[IA] Modelo inicializado (sin pesos previos).")
+
         self.critic = MusicCriticEvaluator()
-        self.synthesizer = StudioSynthesizer(sample_rate=44100)
+        self.real_engine = RealInstrumentEngine(sample_rate=44100)
         self.mixer = StudioMixer(sample_rate=44100)
         os.makedirs(self.outputs_root, exist_ok=True)
 
@@ -117,9 +127,9 @@ Solo queda el recuerdo de tu adiós."""
         issues = self.critic.audit_score(score_events, key=directives["key"])
         verified_score = self.critic.apply_surgical_inpainting(score_events, issues, key=directives["key"])
 
-        # FASE 5: Grabación y Síntesis Multicanal de Alta Fidelidad
-        stems_audio_buffers = self.synthesizer.render_multitrack_stems(
-            verified_score, bpm=directives["bpm"], total_bars=32
+        # FASE 5: Grabación y Recombinación Acústica con Instrumentos REALES del Dataset
+        stems_audio_buffers = self.real_engine.render_real_studio_multitrack(
+            directives, lyrics_text=lyrics_content, total_bars=32
         )
 
         # FASE 6: Consola Virtual de Mezcla y Masterización DAW (StudioMixer)
