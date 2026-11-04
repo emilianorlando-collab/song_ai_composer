@@ -1,0 +1,98 @@
+{
+  "song_id": "cumbia_002",
+  "formato_estudio": "DAW Multitrack 24-bit 44.1kHz",
+  "lead_instrument": "acordeon",
+  "total_canales": 8,
+  "canales": {
+    "01_guiro": {
+      "file": "cumbia_002_01_guiro.wav",
+      "path": "data/stems/cumbia_002/cumbia_002_01_guiro.wav",
+      "bus": "Drums_Percussion",
+      "peak_dbfs": -5.79,
+      "rms_dbfs": -30.47,
+      "dynamic_range_db": 24.68,
+      "spectral_centroid_hz": 8554.9,
+      "duracion_sec": 164.29
+    },
+    "02_bombo": {
+      "file": "cumbia_002_02_bombo.wav",
+      "path": "data/stems/cumbia_002/cumbia_002_02_bombo.wav",
+      "bus": "Drums_Percussion",
+      "peak_dbfs": -6.15,
+      "rms_dbfs": -22.54,
+      "dynamic_range_db": 16.39,
+      "spectral_centroid_hz": 78.8,
+      "duracion_sec": 164.29
+    },
+    "03_timbales": {
+      "file": "cumbia_002_03_timbales.wav",
+      "path": "data/stems/cumbia_002/cumbia_002_03_timbales.wav",
+      "bus": "Drums_Percussion",
+      "peak_dbfs": -2.88,
+      "rms_dbfs": -23.81,
+      "dynamic_range_db": 20.93,
+      "spectral_centroid_hz": 1063.1,
+      "duracion_sec": 164.29
+    },
+    "04_bass": {
+      "file": "cumbia_002_04_bass.wav",
+      "path": "data/stems/cumbia_002/cumbia_002_04_bass.wav",
+      "bus": "Bass",
+      "peak_dbfs": -7.46,
+      "rms_dbfs": -19.59,
+      "dynamic_range_db": 12.13,
+      "spectral_centroid_hz": 742.0,
+      "duracion_sec": 164.29
+    },
+    "05_piano": {
+      "file": "cumbia_002_05_piano.wav",
+      "path": "data/stems/cumbia_002/cumbia_002_05_piano.wav",
+      "bus": "Harmony_Keys",
+      "peak_dbfs": -5.35,
+      "rms_dbfs": -34.31,
+      "dynamic_range_db": 28.96,
+      "spectral_centroid_hz": 5366.2,
+      "duracion_sec": 164.29
+    },
+    "06_guitar": {
+      "file": "cumbia_002_06_guitar.wav",
+      "path": "data/stems/cumbia_002/cumbia_002_06_guitar.wav",
+      "bus": "Harmony_Keys",
+      "peak_dbfs": -14.19,
+      "rms_dbfs": -37.21,
+      "dynamic_range_db": 23.02,
+      "spectral_centroid_hz": 4395.1,
+      "duracion_sec": 164.29
+    },
+    "07_lead": {
+      "file": "cumbia_002_07_lead.wav",
+      "path": "data/stems/cumbia_002/cumbia_002_07_lead.wav",
+      "bus": "Lead_Solo",
+      "peak_dbfs": -1.75,
+      "rms_dbfs": -29.17,
+      "dynamic_range_db": 27.42,
+      "spectral_centroid_hz": 3518.5,
+      "duracion_sec": 164.29
+    },
+    "08_vocals": {
+      "file": "cumbia_002_08_vocals.wav",
+      "path": "data/stems/cumbia_002/cumbia_002_08_vocals.wav",
+      "bus": "Vocals",
+      "peak_dbfs": -1.48,
+      "rms_dbfs": -20.45,
+      "dynamic_range_db": 18.97,
+      "spectral_centroid_hz": 3619.6,
+      "duracion_sec": 164.29
+    }
+  },
+  "rutas_stems": {
+    "01_guiro": "data/stems/cumbia_002/cumbia_002_01_guiro.wav",
+    "02_bombo": "data/stems/cumbia_002/cumbia_002_02_bombo.wav",
+    "03_timbales": "data/stems/cumbia_002/cumbia_002_03_timbales.wav",
+    "04_bass": "data/stems/cumbia_002/cumbia_002_04_bass.wav",
+    "05_piano": "data/stems/cumbia_002/cumbia_002_05_piano.wav",
+    "06_guitar": "data/stems/cumbia_002/cumbia_002_06_guitar.wav",
+    "07_lead": "data/stems/cumbia_002/cumbia_002_07_lead.wav",
+    "08_vocals": "data/stems/cumbia_002/cumbia_002_08_vocals.wav"
+  }
+}

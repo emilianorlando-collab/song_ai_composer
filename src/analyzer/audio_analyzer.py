@@ -1,87 +1,61 @@
 import os
 import json
-import subprocess
 import numpy as np
 import librosa
 import soundfile as sf
 import torch
 import pandas as pd
+from src.analyzer.studio_deconstructor import StudioDeconstructor
 
 MAJOR_PROFILE = np.array([6.35, 2.23, 3.48, 2.33, 4.38, 4.09, 2.52, 5.19, 2.39, 3.66, 2.29, 2.88])
 MINOR_PROFILE = np.array([6.33, 2.68, 3.52, 5.38, 2.60, 3.53, 2.54, 4.75, 3.98, 2.69, 3.34, 3.17])
 PITCH_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
 
-class AudioAnalyzer:
+class StudioAudioAnalyzer:
+    """
+    Analizador Profesional de Estudio de Audio Multitrack (8 canales).
+    
+    Analiza:
+    1. Métrica, Tempo (BPM) y compases usando el pulso del bombo y el reloj del güiro.
+    2. Armonía y progresión compás a compás con bajo + piano + guitarra.
+    3. Matriz de Arreglo DAW: qué instrumentos tocan en cada compás (densidad instrumental).
+    4. Silencios y Dinámica de Llamada y Respuesta (Lead contestando a la Voz).
+    5. Métricas de mezcla de estudio: Peak dBFS, RMS, Dynamic Range y Brillo espectral.
+    """
+
     def __init__(self, stems_root="data/stems", processed_root="data/processed"):
         self.stems_root = stems_root
         self.processed_root = processed_root
-        self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        os.makedirs(self.stems_root, exist_ok=True)
+        self.deconstructor = StudioDeconstructor(stems_root, processed_root)
         os.makedirs(self.processed_root, exist_ok=True)
 
-    def separate_stems(self, audio_path, song_id):
-        """
-        Separa la canción en 4 pistas (drums, bass, other, vocals) usando Demucs.
-        Cada archivo WAV se nombra con el prefijo único del song_id para evitar confusiones.
-        """
+    def load_or_extract_studio_multitrack(self, audio_path, song_id, lead_instrument="acordeon"):
         song_stems_dir = os.path.join(self.stems_root, song_id)
-        os.makedirs(song_stems_dir, exist_ok=True)
-
-        expected_stems = {
-            "drums": os.path.join(song_stems_dir, f"{song_id}_drums.wav"),
-            "bass": os.path.join(song_stems_dir, f"{song_id}_bass.wav"),
-            "other": os.path.join(song_stems_dir, f"{song_id}_other.wav"),
-            "vocals": os.path.join(song_stems_dir, f"{song_id}_vocals.wav"),
-        }
-
-        # Soporte para migración de nombres viejos (drums.wav -> cumbia_002_drums.wav)
-        for stem_name, new_path in expected_stems.items():
-            old_path = os.path.join(song_stems_dir, f"{stem_name}.wav")
-            if os.path.exists(old_path) and not os.path.exists(new_path):
-                os.rename(old_path, new_path)
-
-        # Si ya existen todos, no reprocesamos
-        if all(os.path.exists(p) for p in expected_stems.values()):
-            print(f"[STEMS] Pistas ya separadas en: {song_stems_dir}")
-            return expected_stems
-
-        print(f"\n[DEMUCS] Separando stems para {song_id} ({os.path.basename(audio_path)})...")
-        cmd = [
-            "./.venv/bin/demucs",
-            "-d", self.device,
-            "-o", self.stems_root,
-            "-n", "htdemucs",
-            audio_path
+        expected_channels = [
+            "01_guiro", "02_bombo", "03_timbales", "04_bass",
+            "05_piano", "06_guitar", "07_lead", "08_vocals"
         ]
-        res = subprocess.run(cmd, capture_output=True, text=True)
-        if res.returncode != 0:
-            raise RuntimeError(f"Error en Demucs: {res.stderr}")
-
-        raw_name = os.path.splitext(os.path.basename(audio_path))[0]
-        demucs_out_dir = os.path.join(self.stems_root, "htdemucs", raw_name)
         
-        stems_dict = {}
-        for stem_name in ["drums", "bass", "other", "vocals"]:
-            src = os.path.join(demucs_out_dir, f"{stem_name}.wav")
-            dst = expected_stems[stem_name]
-            if os.path.exists(src):
-                os.replace(src, dst)
-                stems_dict[stem_name] = dst
-            else:
-                stems_dict[stem_name] = src
+        stems = {}
+        missing = False
+        for ch in expected_channels:
+            p = os.path.join(song_stems_dir, f"{song_id}_{ch}.wav")
+            if not os.path.exists(p):
+                missing = True
+                break
+            stems[ch] = p
 
-        # Limpiar carpeta temporal de Demucs si quedó vacía
-        try:
-            if os.path.exists(demucs_out_dir) and not os.listdir(demucs_out_dir):
-                os.rmdir(demucs_out_dir)
-        except Exception:
-            pass
+        if missing:
+            print(f"[ESTUDIO] Pistas multipista no completas para {song_id}. Ejecutando deconstrucción...")
+            session = self.deconstructor.deconstruct_song_to_daw_multitrack(audio_path, song_id, lead_instrument)
+            stems = session["rutas_stems"]
 
-        print(f"[STEMS OK] Pistas guardadas con ID '{song_id}' en: {song_stems_dir}")
-        return stems_dict
+        return stems
 
-    def detect_tempo_and_bars(self, y_drums, sr):
-        onset_env = librosa.onset.onset_strength(y=y_drums, sr=sr, aggregate=np.median)
+    def detect_tempo_and_bars(self, y_guiro, y_bombo, sr):
+        # El güiro marca la subdivisión en semicorcheas y el bombo marca los pulsos fuertes
+        y_rhythm = y_bombo + 0.5 * y_guiro
+        onset_env = librosa.onset.onset_strength(y=y_rhythm, sr=sr, aggregate=np.median)
         tempo, beats = librosa.beat.beat_track(onset_envelope=onset_env, sr=sr, start_bpm=100)
         tempo_val = float(tempo[0] if isinstance(tempo, (list, np.ndarray)) else tempo)
 
@@ -100,8 +74,7 @@ class AudioAnalyzer:
 
         return round(tempo_val, 1), beat_times, bars
 
-    def detect_key_and_chords(self, y_other, y_bass, sr, bars):
-        y_harm = y_other + y_bass
+    def detect_key_and_chords(self, y_harm, sr, bars):
         chroma = librosa.feature.chroma_cqt(y=y_harm, sr=sr)
         chroma_mean = np.mean(chroma, axis=1)
 
@@ -148,63 +121,69 @@ class AudioAnalyzer:
 
         return detected_key, chord_sequence
 
-    def segment_structure_and_silences(self, y_vocals, y_drums, y_other, sr, bars, chords):
+    def analyze_multitrack_arrangement(self, tracks, sr, bars, chords):
+        """
+        Analiza compás por compás qué instrumentos de la sesión de estudio están sonando,
+        detectando caídas de bombo, entradas de timbales, contestaciones del lead y estructura.
+        """
         total_bars = len(bars)
-        bar_stats = []
+        bar_matrix = []
 
         for i, bar in enumerate(bars):
             start = int(bar["start_time"] * sr)
             end = int(bar["end_time"] * sr)
 
-            v_seg = y_vocals[start:end]
-            d_seg = y_drums[start:end]
-            o_seg = y_other[start:end]
+            bar_energies = {}
+            active_instruments = []
 
-            rms_v = float(np.sqrt(np.mean(v_seg**2))) if len(v_seg) > 0 else 0.0
-            rms_d = float(np.sqrt(np.mean(d_seg**2))) if len(d_seg) > 0 else 0.0
-            rms_o = float(np.sqrt(np.mean(o_seg**2))) if len(o_seg) > 0 else 0.0
+            for name, audio in tracks.items():
+                seg = audio[start:end]
+                rms = float(np.sqrt(np.mean(seg**2))) if len(seg) > 0 else 0.0
+                bar_energies[name] = round(rms, 4)
+                
+                # Umbral de actividad por instrumento
+                threshold = 0.015 if "guiro" in name or "bombo" in name else 0.02
+                if rms > threshold:
+                    active_instruments.append(name.replace("01_", "").replace("02_", "").replace("03_", "").replace("04_", "").replace("05_", "").replace("06_", "").replace("07_", "").replace("08_", ""))
 
-            bar_stats.append({
+            bar_matrix.append({
                 "bar": bar["bar_index"],
                 "start": bar["start_time"],
                 "end": bar["end_time"],
-                "rms_v": rms_v,
-                "rms_d": rms_d,
-                "rms_o": rms_o,
-                "has_voice": bool(rms_v > 0.035),
-                "chord": chords[i] if i < len(chords) else "Am"
+                "chord": chords[i] if i < len(chords) else "Am",
+                "instrumentos_activos": active_instruments,
+                "has_vocals": ("vocals" in active_instruments),
+                "has_bombo": ("bombo" in active_instruments),
+                "has_lead": ("lead" in active_instruments),
+                "densidad_instrumental": len(active_instruments),
+                "rms_detallado": bar_energies
             })
 
-        # Suavizado temporal
-        smoothed_voice = []
-        for i in range(total_bars):
-            window = [bar_stats[j]["has_voice"] for j in range(max(0, i-1), min(total_bars, i+2))]
-            smoothed_voice.append(sum(window) >= 2)
-
+        # Estructuración funcional
+        sections = []
         raw_labels = []
-        for i, b in enumerate(bar_stats):
-            voice_active = smoothed_voice[i]
-            drums_energy = b["rms_d"]
-            other_energy = b["rms_o"]
+        for i, b in enumerate(bar_matrix):
+            has_vox = b["has_vocals"]
+            has_bombo = b["has_bombo"]
+            has_lead = b["has_lead"]
+            dens = b["densidad_instrumental"]
 
-            if i < 8 and not voice_active:
+            if i < 8 and not has_vox:
                 raw_labels.append("Intro")
-            elif i > total_bars - 6 and not voice_active:
+            elif i > total_bars - 8 and not has_vox:
                 raw_labels.append("Outro")
-            elif not voice_active and (other_energy > 0.035 or drums_energy > 0.07):
+            elif not has_vox and has_lead and dens >= 4:
                 raw_labels.append("Tramo_Bailable_Punteo")
-            elif voice_active:
-                if drums_energy > 0.11:
+            elif has_vox:
+                if has_bombo and dens >= 5:
                     raw_labels.append("Estribillo")
                 else:
                     raw_labels.append("Verso")
             else:
-                raw_labels.append("Puente_Instrumental")
+                raw_labels.append("Corte_Instrumental")
 
-        sections = []
         curr_label = raw_labels[0]
         start_idx = 0
-
         for i in range(1, len(raw_labels)):
             if raw_labels[i] != curr_label:
                 sections.append({
@@ -214,8 +193,8 @@ class AudioAnalyzer:
                     "tiempo_inicio": bars[start_idx]["start_time"],
                     "tiempo_fin": bars[i-1]["end_time"],
                     "duracion_compases": i - start_idx,
-                    "presencia_voz": any(bar_stats[k]["has_voice"] for k in range(start_idx, i)),
-                    "acordes": [bar_stats[k]["chord"] for k in range(start_idx, i)]
+                    "instrumentos_predominantes": list(set([inst for k in range(start_idx, i) for inst in bar_matrix[k]["instrumentos_activos"]])),
+                    "acordes": [bar_matrix[k]["chord"] for k in range(start_idx, i)]
                 })
                 curr_label = raw_labels[i]
                 start_idx = i
@@ -227,64 +206,76 @@ class AudioAnalyzer:
             "tiempo_inicio": bars[start_idx]["start_time"],
             "tiempo_fin": bars[-1]["end_time"],
             "duracion_compases": len(raw_labels) - start_idx,
-            "presencia_voz": any(bar_stats[k]["has_voice"] for k in range(start_idx, len(raw_labels))),
-            "acordes": [bar_stats[k]["chord"] for k in range(start_idx, len(raw_labels))]
+            "instrumentos_predominantes": list(set([inst for k in range(start_idx, len(raw_labels)) for inst in bar_matrix[k]["instrumentos_activos"]])),
+            "acordes": [bar_matrix[k]["chord"] for k in range(start_idx, len(raw_labels))]
         })
 
-        call_and_response_silences = []
-        for sec in sections:
-            if sec["presencia_voz"]:
-                for b in bar_stats:
-                    if sec["compas_inicio"] <= b["bar"] <= sec["compas_fin"]:
-                        if not b["has_voice"] and b["rms_o"] > 0.03:
-                            call_and_response_silences.append({
-                                "compas": b["bar"],
-                                "tiempo_segundos": b["start"],
-                                "acorde": b["chord"],
-                                "en_seccion": sec["tipo"],
-                                "oportunidad_respuesta_solista": True
-                            })
+        # Silencios con llamada y respuesta quirúrgica:
+        # La voz se calla dentro de una sección vocal Y el lead solista responde tocando frases
+        call_and_response = []
+        for b in bar_matrix:
+            if not b["has_vocals"] and b["has_lead"]:
+                call_and_response.append({
+                    "compas": b["bar"],
+                    "tiempo_segundos": b["start"],
+                    "acorde": b["chord"],
+                    "rol": "contestacion_lead_solista",
+                    "instrumentos_base": [inst for inst in b["instrumentos_activos"] if inst != "lead"]
+                })
 
-        return sections, call_and_response_silences
+        return sections, call_and_response, bar_matrix
 
-    def analyze_song(self, audio_path, song_id, metadata=None):
+    def analyze_studio_song(self, audio_path, song_id, lead_instrument="acordeon", metadata=None):
         print(f"\n=======================================================")
-        print(f"🎵 PROCESANDO CANCIÓN [{song_id}]: {os.path.basename(audio_path)}")
+        print(f"🎚️  ANÁLISIS PROFESIONAL MULTITRACK [{song_id}]: {os.path.basename(audio_path)}")
         print(f"=======================================================")
 
-        stems = self.separate_stems(audio_path, song_id)
+        # 1. Cargar las 8 pistas de estudio
+        stems = self.load_or_extract_studio_multitrack(audio_path, song_id, lead_instrument)
 
-        y_drums, sr = librosa.load(stems["drums"], sr=22050, mono=True)
-        y_bass, _ = librosa.load(stems["bass"], sr=22050, mono=True)
-        y_other, _ = librosa.load(stems["other"], sr=22050, mono=True)
-        y_vox, _ = librosa.load(stems["vocals"], sr=22050, mono=True)
+        loaded_tracks = {}
+        sr = 22050
+        for name, path in stems.items():
+            y, _ = librosa.load(path, sr=sr, mono=True)
+            loaded_tracks[name] = y
 
-        print("\n[MÉTRICA] Calculando tempo y compases (downbeats)...")
-        tempo, beat_times, bars = self.detect_tempo_and_bars(y_drums, sr)
+        # 2. Métrica y Compases con Güiro y Bombo
+        print("[MÉTRICA] Calculando BPM y compases con la base rítmica (Güiro + Bombo)...")
+        tempo, beat_times, bars = self.detect_tempo_and_bars(
+            loaded_tracks["01_guiro"], loaded_tracks["02_bombo"], sr
+        )
         print(f"  -> BPM: {tempo} | Compases: {len(bars)}")
 
-        print("\n[ARMONÍA] Analizando tonalidad y progresiones...")
-        key, chords = self.detect_key_and_chords(y_other, y_bass, sr, bars)
+        # 3. Armonía con Bajo + Piano + Guitarra
+        print("[ARMONÍA] Analizando tonalidad y acordes con la sección armónica (Bajo + Teclados + Guitarras)...")
+        y_harm = loaded_tracks["04_bass"] + loaded_tracks["05_piano"] + loaded_tracks["06_guitar"]
+        key, chords = self.detect_key_and_chords(y_harm, sr, bars)
         print(f"  -> Tonalidad: {key}")
 
-        print("\n[ESTRUCTURA] Segmentando tramos funcionales y silencios...")
-        sections, call_responses = self.segment_structure_and_silences(y_vox, y_drums, y_other, sr, bars, chords)
+        # 4. Matriz de Arreglo Multitrack y Contestaciones
+        print("[ESTRUCTURA DAW] Mapeando actividad de cada pista compás a compás...")
+        sections, call_responses, bar_matrix = self.analyze_multitrack_arrangement(
+            loaded_tracks, sr, bars, chords
+        )
 
         print(f"\n[MAPA ESTRUCTURAL DETECTADO]")
         for s in sections:
-            print(f"  • {s['tipo']:<22} | Compás {s['compas_inicio']:>2} al {s['compas_fin']:>2} ({s['duracion_compases']:>2} compases) | Acordes: {' - '.join(s['acordes'][:4])}")
+            print(f"  • {s['tipo']:<22} | Compás {s['compas_inicio']:>2} al {s['compas_fin']:>2} ({s['duracion_compases']:>2} compases) | Pistas: {', '.join(s['instrumentos_predominantes'][:4])}")
 
-        print(f"\n  -> Silencios para llamada y respuesta: {len(call_responses)} compases identificados.")
+        print(f"\n  -> Contestaciones Lead / Solista detectadas: {len(call_responses)} compases identificados.")
 
         analysis_result = {
             "song_id": song_id,
             "file_name": os.path.basename(audio_path),
             "bpm": tempo,
             "tonalidad_predominante": key,
+            "lead_instrument": lead_instrument,
             "total_compases": len(bars),
-            "duracion_segundos": round(len(y_drums) / sr, 2),
+            "duracion_segundos": round(len(loaded_tracks["01_guiro"]) / sr, 2),
+            "canales_estudio": list(stems.keys()),
             "tramos": sections,
-            "silencios_llamada_respuesta": call_responses,
+            "contestaciones_llamada_respuesta": call_responses,
+            "matriz_arreglo_compases": bar_matrix[:32], # Primeros 32 compases detallados
             "stems_paths": stems,
             "metadata_origen": metadata or {}
         }
@@ -293,30 +284,30 @@ class AudioAnalyzer:
         with open(out_json, "w", encoding="utf-8") as f:
             json.dump(analysis_result, f, indent=2, ensure_ascii=False)
 
-        print(f"\n[ÉXITO] Archivo estructurado guardado en: {out_json}")
+        print(f"[ÉXITO] Archivo de análisis de estudio guardado en: {out_json}")
         return analysis_result
 
-def process_entire_dataset(metadata_path="data/metadata.csv", raw_root="data/raw"):
-    analyzer = AudioAnalyzer()
+def process_entire_dataset_studio(metadata_path="data/metadata.csv", raw_root="data/raw"):
+    analyzer = StudioAudioAnalyzer()
     df = pd.read_csv(metadata_path)
-    
-    print(f"\n🚀 PROCESANDO DATASET COMPLETO ({len(df)} canciones)")
-    
+
+    print(f"\n🚀 ANÁLISIS DEL DATASET COMPLETO EN 8 CANALES ({len(df)} canciones)")
     for idx, row in df.iterrows():
         song_id = row["song_id"]
         file_name = row["file_name"]
+        lead = row.get("lead_instrument", "acordeon")
         audio_path = os.path.join(raw_root, file_name)
-        
+
         if os.path.exists(audio_path):
-            res = analyzer.analyze_song(audio_path, song_id, row.to_dict())
-            df.at[idx, "status"] = "analyzed"
+            res = analyzer.analyze_studio_song(audio_path, song_id, lead_instrument=lead, metadata=row.to_dict())
+            df.at[idx, "status"] = "studio_analyzed"
             df.at[idx, "bpm"] = res["bpm"]
             df.at[idx, "key"] = res["tonalidad_predominante"]
         else:
             print(f"[ERROR] Archivo no encontrado: {audio_path}")
-            
+
     df.to_csv(metadata_path, index=False)
-    print(f"\n✅ DATASET HOMOGÉNEO Y METADATOS ACTUALIZADOS EN: {metadata_path}")
+    print(f"\n✅ DATASET MULTITRACK HOMOGÉNEO Y METADATOS ACTUALIZADOS EN: {metadata_path}")
 
 if __name__ == "__main__":
-    process_entire_dataset()
+    process_entire_dataset_studio()

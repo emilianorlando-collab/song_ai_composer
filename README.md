@@ -121,8 +121,16 @@ Para validar y calibrar los algoritmos de extracción y composición antes de es
 
 - [x] Inicialización del entorno de trabajo y estructura multitrack.
 - [x] Configuración del control de versiones y aislamiento de almacenamiento masivo.
-- [ ] Pipeline de análisis de audio: Separador de stems + detector de BPM y tonalidad.
-- [ ] Módulo de transcripción melódica (Audio-to-MIDI) para notas de voz de entrada.
-- [ ] Motor de alineación letra-ritmo (Prosodia y fraseo elástico).
-- [ ] Generador simbólico de armonías y melodías con control emocional.
-- [ ] Motor de inpainting y modificación por segmentos específicos.
+- [x] **Pipeline de Deconstrucción Profesional de Estudio (8 Pistas DAW):**
+  - Desglose granular: Güiro/Rallador, Bombo, Timbales/Campana, Bajo, Piano/Teclados, Guitarra, Lead Solista (Acordeón/Viola), Voces.
+  - Crossover multibanda Linkwitz-Riley de fase cero para separación quirúrgica de percusión.
+- [x] **Consola Virtual de Mezcla y Masterización DAW (`src/composer/studio_engine.py`):**
+  - Channel strips independientes con EQ, Panning estéreo de potencia constante, envíos espaciales (Plate Reverb y Delay).
+  - Sidechain ducking y Master Bus Limiter a -1.0 dBFS (-14 LUFS compliance).
+- [x] **Analizador Multitrack y Estructura Funcional (`src/analyzer/audio_analyzer.py`):**
+  - Matriz de densidad instrumental compás a compás.
+  - Detección precisa de pausas vocales y contestaciones solistas (Llamada y Respuesta).
+- [ ] Módulo de transcripción melódica y rítmica (Audio-to-MIDI) para exportar partituras simbólicas.
+- [ ] Motor de alineación letra-ritmo (Prosodia lírica y fraseo elástico humano).
+- [ ] Generador probabilístico de arreglos y progresiones con control emocional.
+- [ ] Motor de inpainting y modificación quirúrgica por compás.

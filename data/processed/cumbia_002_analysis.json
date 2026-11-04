@@ -1,507 +1,1105 @@
 {
   "song_id": "cumbia_002",
   "file_name": "cumbia_002_los_palmeras_el_parrandero.mp3",
-  "bpm": 129.2,
+  "bpm": 66.3,
   "tonalidad_predominante": "A",
-  "total_compases": 87,
+  "lead_instrument": "acordeon",
+  "total_compases": 42,
   "duracion_segundos": 164.29,
+  "canales_estudio": [
+    "01_guiro",
+    "02_bombo",
+    "03_timbales",
+    "04_bass",
+    "05_piano",
+    "06_guitar",
+    "07_lead",
+    "08_vocals"
+  ],
   "tramos": [
     {
-      "tipo": "Intro",
+      "tipo": "Estribillo",
       "compas_inicio": 1,
-      "compas_fin": 1,
-      "tiempo_inicio": 1.556,
-      "tiempo_fin": 3.367,
-      "duracion_compases": 1,
-      "presencia_voz": false,
+      "compas_fin": 18,
+      "tiempo_inicio": 1.324,
+      "tiempo_fin": 66.084,
+      "duracion_compases": 18,
+      "instrumentos_predominantes": [
+        "lead",
+        "vocals",
+        "timbales",
+        "bombo",
+        "guiro",
+        "bass"
+      ],
       "acordes": [
+        "A",
+        "A",
+        "Dm",
+        "C",
+        "F",
+        "C",
+        "C",
+        "Cm",
+        "D",
+        "F",
+        "Dm",
+        "D",
+        "A",
+        "A#m",
+        "A",
+        "A#m",
+        "A",
         "A"
       ]
     },
     {
-      "tipo": "Verso",
-      "compas_inicio": 2,
-      "compas_fin": 5,
-      "tiempo_inicio": 3.367,
-      "tiempo_fin": 10.658,
-      "duracion_compases": 4,
-      "presencia_voz": true,
-      "acordes": [
-        "A",
-        "A",
-        "D",
-        "Dm"
-      ]
-    },
-    {
-      "tipo": "Estribillo",
-      "compas_inicio": 6,
-      "compas_fin": 7,
-      "tiempo_inicio": 10.658,
-      "tiempo_fin": 14.28,
-      "duracion_compases": 2,
-      "presencia_voz": true,
-      "acordes": [
-        "Dm",
-        "F"
-      ]
-    },
-    {
-      "tipo": "Verso",
-      "compas_inicio": 8,
-      "compas_fin": 8,
-      "tiempo_inicio": 14.28,
-      "tiempo_fin": 16.091,
-      "duracion_compases": 1,
-      "presencia_voz": true,
-      "acordes": [
-        "G"
-      ]
-    },
-    {
-      "tipo": "Estribillo",
-      "compas_inicio": 9,
-      "compas_fin": 9,
-      "tiempo_inicio": 16.091,
-      "tiempo_fin": 17.926,
-      "duracion_compases": 1,
-      "presencia_voz": true,
-      "acordes": [
-        "F"
-      ]
-    },
-    {
-      "tipo": "Verso",
-      "compas_inicio": 10,
-      "compas_fin": 12,
-      "tiempo_inicio": 17.926,
-      "tiempo_fin": 23.359,
-      "duracion_compases": 3,
-      "presencia_voz": true,
-      "acordes": [
-        "Dm",
-        "F",
-        "C"
-      ]
-    },
-    {
-      "tipo": "Estribillo",
-      "compas_inicio": 13,
-      "compas_fin": 13,
-      "tiempo_inicio": 23.359,
-      "tiempo_fin": 25.17,
-      "duracion_compases": 1,
-      "presencia_voz": true,
-      "acordes": [
-        "C"
-      ]
-    },
-    {
-      "tipo": "Verso",
-      "compas_inicio": 14,
-      "compas_fin": 15,
-      "tiempo_inicio": 25.17,
-      "tiempo_fin": 28.816,
-      "duracion_compases": 2,
-      "presencia_voz": true,
-      "acordes": [
-        "D",
-        "C"
-      ]
-    },
-    {
-      "tipo": "Estribillo",
-      "compas_inicio": 16,
-      "compas_fin": 18,
-      "tiempo_inicio": 28.816,
-      "tiempo_fin": 34.273,
-      "duracion_compases": 3,
-      "presencia_voz": true,
-      "acordes": [
-        "Dm",
-        "A",
-        "Gm"
-      ]
-    },
-    {
-      "tipo": "Verso",
+      "tipo": "Tramo_Bailable_Punteo",
       "compas_inicio": 19,
       "compas_fin": 19,
-      "tiempo_inicio": 34.273,
-      "tiempo_fin": 36.084,
+      "tiempo_inicio": 66.084,
+      "tiempo_fin": 69.73,
       "duracion_compases": 1,
-      "presencia_voz": true,
+      "instrumentos_predominantes": [
+        "lead",
+        "guitar",
+        "timbales",
+        "bombo",
+        "guiro",
+        "bass"
+      ],
       "acordes": [
-        "C"
+        "A"
       ]
     },
     {
       "tipo": "Estribillo",
       "compas_inicio": 20,
-      "compas_fin": 20,
-      "tiempo_inicio": 36.084,
-      "tiempo_fin": 37.895,
+      "compas_fin": 35,
+      "tiempo_inicio": 69.73,
+      "tiempo_fin": 127.872,
+      "duracion_compases": 16,
+      "instrumentos_predominantes": [
+        "lead",
+        "vocals",
+        "guitar",
+        "piano",
+        "timbales",
+        "bombo",
+        "guiro",
+        "bass"
+      ],
+      "acordes": [
+        "Dm",
+        "A#",
+        "C",
+        "A#",
+        "C",
+        "C",
+        "A",
+        "Fm",
+        "A",
+        "D",
+        "A",
+        "E",
+        "A",
+        "A",
+        "A",
+        "E"
+      ]
+    },
+    {
+      "tipo": "Outro",
+      "compas_inicio": 36,
+      "compas_fin": 36,
+      "tiempo_inicio": 127.872,
+      "tiempo_fin": 131.541,
       "duracion_compases": 1,
-      "presencia_voz": true,
+      "instrumentos_predominantes": [
+        "piano",
+        "timbales",
+        "bombo",
+        "guiro",
+        "bass"
+      ],
+      "acordes": [
+        "A"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 37,
+      "compas_fin": 37,
+      "tiempo_inicio": 131.541,
+      "tiempo_fin": 135.163,
+      "duracion_compases": 1,
+      "instrumentos_predominantes": [
+        "vocals",
+        "piano",
+        "timbales",
+        "bombo",
+        "guiro",
+        "bass"
+      ],
       "acordes": [
         "E"
       ]
     },
     {
-      "tipo": "Verso",
-      "compas_inicio": 21,
-      "compas_fin": 21,
-      "tiempo_inicio": 37.895,
-      "tiempo_fin": 39.729,
+      "tipo": "Outro",
+      "compas_inicio": 38,
+      "compas_fin": 38,
+      "tiempo_inicio": 135.163,
+      "tiempo_fin": 138.809,
       "duracion_compases": 1,
-      "presencia_voz": true,
-      "acordes": [
-        "Dm"
-      ]
-    },
-    {
-      "tipo": "Estribillo",
-      "compas_inicio": 22,
-      "compas_fin": 22,
-      "tiempo_inicio": 39.729,
-      "tiempo_fin": 41.564,
-      "duracion_compases": 1,
-      "presencia_voz": true,
+      "instrumentos_predominantes": [
+        "guitar",
+        "piano",
+        "timbales",
+        "bombo",
+        "guiro",
+        "bass"
+      ],
       "acordes": [
         "A"
       ]
     },
     {
-      "tipo": "Verso",
-      "compas_inicio": 23,
-      "compas_fin": 23,
-      "tiempo_inicio": 41.564,
-      "tiempo_fin": 43.375,
-      "duracion_compases": 1,
-      "presencia_voz": true,
-      "acordes": [
-        "G"
-      ]
-    },
-    {
       "tipo": "Estribillo",
-      "compas_inicio": 24,
-      "compas_fin": 24,
-      "tiempo_inicio": 43.375,
-      "tiempo_fin": 45.186,
-      "duracion_compases": 1,
-      "presencia_voz": true,
+      "compas_inicio": 39,
+      "compas_fin": 42,
+      "tiempo_inicio": 138.809,
+      "tiempo_fin": 153.321,
+      "duracion_compases": 4,
+      "instrumentos_predominantes": [
+        "lead",
+        "vocals",
+        "piano",
+        "timbales",
+        "bombo",
+        "guiro",
+        "bass"
+      ],
       "acordes": [
-        "A"
-      ]
-    },
-    {
-      "tipo": "Verso",
-      "compas_inicio": 25,
-      "compas_fin": 34,
-      "tiempo_inicio": 45.186,
-      "tiempo_fin": 63.367,
-      "duracion_compases": 10,
-      "presencia_voz": true,
-      "acordes": [
-        "D",
-        "E",
-        "A#m",
-        "A",
         "A",
         "A",
         "A#",
-        "A",
-        "A",
-        "Dm"
-      ]
-    },
-    {
-      "tipo": "Tramo_Bailable_Punteo",
-      "compas_inicio": 35,
-      "compas_fin": 39,
-      "tiempo_inicio": 63.367,
-      "tiempo_fin": 72.446,
-      "duracion_compases": 5,
-      "presencia_voz": false,
-      "acordes": [
-        "Am",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    },
-    {
-      "tipo": "Verso",
-      "compas_inicio": 40,
-      "compas_fin": 40,
-      "tiempo_inicio": 72.446,
-      "tiempo_fin": 74.257,
-      "duracion_compases": 1,
-      "presencia_voz": true,
-      "acordes": [
-        "Dm"
-      ]
-    },
-    {
-      "tipo": "Estribillo",
-      "compas_inicio": 41,
-      "compas_fin": 41,
-      "tiempo_inicio": 74.257,
-      "tiempo_fin": 76.069,
-      "duracion_compases": 1,
-      "presencia_voz": true,
-      "acordes": [
-        "A#"
-      ]
-    },
-    {
-      "tipo": "Verso",
-      "compas_inicio": 42,
-      "compas_fin": 44,
-      "tiempo_inicio": 76.069,
-      "tiempo_fin": 81.525,
-      "duracion_compases": 3,
-      "presencia_voz": true,
-      "acordes": [
-        "C",
-        "C",
-        "A"
-      ]
-    },
-    {
-      "tipo": "Estribillo",
-      "compas_inicio": 45,
-      "compas_fin": 45,
-      "tiempo_inicio": 81.525,
-      "tiempo_fin": 83.336,
-      "duracion_compases": 1,
-      "presencia_voz": true,
-      "acordes": [
-        "A#"
-      ]
-    },
-    {
-      "tipo": "Verso",
-      "compas_inicio": 46,
-      "compas_fin": 47,
-      "tiempo_inicio": 83.336,
-      "tiempo_fin": 86.959,
-      "duracion_compases": 2,
-      "presencia_voz": true,
-      "acordes": [
-        "C",
-        "C"
-      ]
-    },
-    {
-      "tipo": "Estribillo",
-      "compas_inicio": 48,
-      "compas_fin": 52,
-      "tiempo_inicio": 86.959,
-      "tiempo_fin": 96.061,
-      "duracion_compases": 5,
-      "presencia_voz": true,
-      "acordes": [
-        "Cm",
-        "Dm",
-        "Cm",
-        "A",
-        "Dm"
-      ]
-    },
-    {
-      "tipo": "Verso",
-      "compas_inicio": 53,
-      "compas_fin": 53,
-      "tiempo_inicio": 96.061,
-      "tiempo_fin": 97.895,
-      "duracion_compases": 1,
-      "presencia_voz": true,
-      "acordes": [
-        "Fm"
-      ]
-    },
-    {
-      "tipo": "Estribillo",
-      "compas_inicio": 54,
-      "compas_fin": 55,
-      "tiempo_inicio": 97.895,
-      "tiempo_fin": 101.518,
-      "duracion_compases": 2,
-      "presencia_voz": true,
-      "acordes": [
-        "E",
-        "A"
-      ]
-    },
-    {
-      "tipo": "Verso",
-      "compas_inicio": 56,
-      "compas_fin": 67,
-      "tiempo_inicio": 101.518,
-      "tiempo_fin": 123.321,
-      "duracion_compases": 12,
-      "presencia_voz": true,
-      "acordes": [
-        "Dm",
-        "D",
-        "A",
-        "A",
-        "Em",
-        "A#",
-        "A",
-        "A",
-        "A",
-        "A#",
-        "A",
-        "A"
-      ]
-    },
-    {
-      "tipo": "Estribillo",
-      "compas_inicio": 68,
-      "compas_fin": 68,
-      "tiempo_inicio": 123.321,
-      "tiempo_fin": 125.132,
-      "duracion_compases": 1,
-      "presencia_voz": true,
-      "acordes": [
-        "A"
-      ]
-    },
-    {
-      "tipo": "Verso",
-      "compas_inicio": 69,
-      "compas_fin": 69,
-      "tiempo_inicio": 125.132,
-      "tiempo_fin": 126.967,
-      "duracion_compases": 1,
-      "presencia_voz": true,
-      "acordes": [
-        "Dm"
-      ]
-    },
-    {
-      "tipo": "Tramo_Bailable_Punteo",
-      "compas_inicio": 70,
-      "compas_fin": 76,
-      "tiempo_inicio": 126.967,
-      "tiempo_fin": 139.714,
-      "duracion_compases": 7,
-      "presencia_voz": true,
-      "acordes": [
-        "A",
-        "A",
-        "Am",
-        "Dm",
-        "A",
-        "A",
-        "A"
-      ]
-    },
-    {
-      "tipo": "Verso",
-      "compas_inicio": 77,
-      "compas_fin": 79,
-      "tiempo_inicio": 139.714,
-      "tiempo_fin": 145.148,
-      "duracion_compases": 3,
-      "presencia_voz": true,
-      "acordes": [
-        "A#",
-        "A",
-        "A"
-      ]
-    },
-    {
-      "tipo": "Estribillo",
-      "compas_inicio": 80,
-      "compas_fin": 80,
-      "tiempo_inicio": 145.148,
-      "tiempo_fin": 146.959,
-      "duracion_compases": 1,
-      "presencia_voz": true,
-      "acordes": [
-        "A"
-      ]
-    },
-    {
-      "tipo": "Verso",
-      "compas_inicio": 81,
-      "compas_fin": 87,
-      "tiempo_inicio": 146.959,
-      "tiempo_fin": 159.684,
-      "duracion_compases": 7,
-      "presencia_voz": true,
-      "acordes": [
-        "A#",
-        "A",
-        "A",
-        "A",
-        "A#",
-        "A",
         "A"
       ]
     }
   ],
-  "silencios_llamada_respuesta": [
+  "contestaciones_llamada_respuesta": [
     {
-      "compas": 4,
-      "tiempo_segundos": 7.012,
-      "acorde": "D",
-      "en_seccion": "Verso",
-      "oportunidad_respuesta_solista": true
-    },
-    {
-      "compas": 70,
-      "tiempo_segundos": 126.967,
+      "compas": 19,
+      "tiempo_segundos": 66.084,
       "acorde": "A",
-      "en_seccion": "Tramo_Bailable_Punteo",
-      "oportunidad_respuesta_solista": true
+      "rol": "contestacion_lead_solista",
+      "instrumentos_base": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "guitar"
+      ]
+    }
+  ],
+  "matriz_arreglo_compases": [
+    {
+      "bar": 1,
+      "start": 1.324,
+      "end": 4.737,
+      "chord": "A",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0235,
+        "02_bombo": 0.0786,
+        "03_timbales": 0.0638,
+        "04_bass": 0.1115,
+        "05_piano": 0.0001,
+        "06_guitar": 0.0176,
+        "07_lead": 0.0822,
+        "08_vocals": 0.0689
+      }
     },
     {
-      "compas": 71,
-      "tiempo_segundos": 128.801,
-      "acorde": "A",
-      "en_seccion": "Tramo_Bailable_Punteo",
-      "oportunidad_respuesta_solista": true
+      "bar": 2,
+      "start": 4.737,
+      "end": 8.382,
+      "chord": "A",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0258,
+        "02_bombo": 0.0754,
+        "03_timbales": 0.0648,
+        "04_bass": 0.1068,
+        "05_piano": 0.0001,
+        "06_guitar": 0.0168,
+        "07_lead": 0.0978,
+        "08_vocals": 0.0327
+      }
     },
     {
-      "compas": 72,
-      "tiempo_segundos": 130.612,
-      "acorde": "Am",
-      "en_seccion": "Tramo_Bailable_Punteo",
-      "oportunidad_respuesta_solista": true
+      "bar": 3,
+      "start": 8.382,
+      "end": 12.028,
+      "chord": "Dm",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0249,
+        "02_bombo": 0.0701,
+        "03_timbales": 0.0658,
+        "04_bass": 0.1004,
+        "05_piano": 0.0001,
+        "06_guitar": 0.0098,
+        "07_lead": 0.0816,
+        "08_vocals": 0.0978
+      }
     },
     {
-      "compas": 74,
-      "tiempo_segundos": 134.235,
-      "acorde": "A",
-      "en_seccion": "Tramo_Bailable_Punteo",
-      "oportunidad_respuesta_solista": true
+      "bar": 4,
+      "start": 12.028,
+      "end": 15.65,
+      "chord": "C",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0296,
+        "02_bombo": 0.0768,
+        "03_timbales": 0.0728,
+        "04_bass": 0.114,
+        "05_piano": 0.0045,
+        "06_guitar": 0.0126,
+        "07_lead": 0.0267,
+        "08_vocals": 0.0968
+      }
     },
     {
-      "compas": 75,
-      "tiempo_segundos": 136.069,
-      "acorde": "A",
-      "en_seccion": "Tramo_Bailable_Punteo",
-      "oportunidad_respuesta_solista": true
+      "bar": 5,
+      "start": 15.65,
+      "end": 19.273,
+      "chord": "F",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0299,
+        "02_bombo": 0.0777,
+        "03_timbales": 0.0706,
+        "04_bass": 0.112,
+        "05_piano": 0.0072,
+        "06_guitar": 0.0116,
+        "07_lead": 0.0233,
+        "08_vocals": 0.0949
+      }
     },
     {
-      "compas": 76,
-      "tiempo_segundos": 137.88,
-      "acorde": "A",
-      "en_seccion": "Tramo_Bailable_Punteo",
-      "oportunidad_respuesta_solista": true
+      "bar": 6,
+      "start": 19.273,
+      "end": 22.918,
+      "chord": "C",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0291,
+        "02_bombo": 0.078,
+        "03_timbales": 0.0707,
+        "04_bass": 0.1154,
+        "05_piano": 0.0087,
+        "06_guitar": 0.0091,
+        "07_lead": 0.028,
+        "08_vocals": 0.1034
+      }
+    },
+    {
+      "bar": 7,
+      "start": 22.918,
+      "end": 26.564,
+      "chord": "C",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": false,
+      "densidad_instrumental": 5,
+      "rms_detallado": {
+        "01_guiro": 0.0282,
+        "02_bombo": 0.0795,
+        "03_timbales": 0.0706,
+        "04_bass": 0.1126,
+        "05_piano": 0.0186,
+        "06_guitar": 0.015,
+        "07_lead": 0.0095,
+        "08_vocals": 0.0991
+      }
+    },
+    {
+      "bar": 8,
+      "start": 26.564,
+      "end": 30.186,
+      "chord": "Cm",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": false,
+      "densidad_instrumental": 5,
+      "rms_detallado": {
+        "01_guiro": 0.029,
+        "02_bombo": 0.0755,
+        "03_timbales": 0.0748,
+        "04_bass": 0.1178,
+        "05_piano": 0.0137,
+        "06_guitar": 0.0157,
+        "07_lead": 0.0031,
+        "08_vocals": 0.0981
+      }
+    },
+    {
+      "bar": 9,
+      "start": 30.186,
+      "end": 33.831,
+      "chord": "D",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0305,
+        "02_bombo": 0.0794,
+        "03_timbales": 0.0773,
+        "04_bass": 0.1065,
+        "05_piano": 0.005,
+        "06_guitar": 0.0135,
+        "07_lead": 0.0215,
+        "08_vocals": 0.0884
+      }
+    },
+    {
+      "bar": 10,
+      "start": 33.831,
+      "end": 37.338,
+      "chord": "F",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": false,
+      "densidad_instrumental": 5,
+      "rms_detallado": {
+        "01_guiro": 0.0322,
+        "02_bombo": 0.0776,
+        "03_timbales": 0.0754,
+        "04_bass": 0.1145,
+        "05_piano": 0.0175,
+        "06_guitar": 0.0098,
+        "07_lead": 0.0006,
+        "08_vocals": 0.1037
+      }
+    },
+    {
+      "bar": 11,
+      "start": 37.338,
+      "end": 40.658,
+      "chord": "Dm",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": false,
+      "densidad_instrumental": 5,
+      "rms_detallado": {
+        "01_guiro": 0.0253,
+        "02_bombo": 0.073,
+        "03_timbales": 0.0823,
+        "04_bass": 0.0921,
+        "05_piano": 0.0101,
+        "06_guitar": 0.0036,
+        "07_lead": 0.0001,
+        "08_vocals": 0.1147
+      }
+    },
+    {
+      "bar": 12,
+      "start": 40.658,
+      "end": 44.28,
+      "chord": "D",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": false,
+      "densidad_instrumental": 5,
+      "rms_detallado": {
+        "01_guiro": 0.0265,
+        "02_bombo": 0.0808,
+        "03_timbales": 0.0655,
+        "04_bass": 0.1029,
+        "05_piano": 0.0126,
+        "06_guitar": 0.0038,
+        "07_lead": 0.0047,
+        "08_vocals": 0.0987
+      }
+    },
+    {
+      "bar": 13,
+      "start": 44.28,
+      "end": 47.903,
+      "chord": "A",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": false,
+      "densidad_instrumental": 5,
+      "rms_detallado": {
+        "01_guiro": 0.028,
+        "02_bombo": 0.0797,
+        "03_timbales": 0.0695,
+        "04_bass": 0.1055,
+        "05_piano": 0.0087,
+        "06_guitar": 0.0002,
+        "07_lead": 0.0127,
+        "08_vocals": 0.0928
+      }
+    },
+    {
+      "bar": 14,
+      "start": 47.903,
+      "end": 51.548,
+      "chord": "A#m",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.023,
+        "02_bombo": 0.0669,
+        "03_timbales": 0.0489,
+        "04_bass": 0.1054,
+        "05_piano": 0.0001,
+        "06_guitar": 0.0112,
+        "07_lead": 0.0242,
+        "08_vocals": 0.1191
+      }
+    },
+    {
+      "bar": 15,
+      "start": 51.548,
+      "end": 55.171,
+      "chord": "A",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0272,
+        "02_bombo": 0.0744,
+        "03_timbales": 0.0651,
+        "04_bass": 0.1047,
+        "05_piano": 0.0001,
+        "06_guitar": 0.0166,
+        "07_lead": 0.0246,
+        "08_vocals": 0.1038
+      }
+    },
+    {
+      "bar": 16,
+      "start": 55.171,
+      "end": 58.816,
+      "chord": "A#m",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0216,
+        "02_bombo": 0.0652,
+        "03_timbales": 0.0469,
+        "04_bass": 0.1056,
+        "05_piano": 0.0001,
+        "06_guitar": 0.011,
+        "07_lead": 0.021,
+        "08_vocals": 0.119
+      }
+    },
+    {
+      "bar": 17,
+      "start": 58.816,
+      "end": 62.438,
+      "chord": "A",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0257,
+        "02_bombo": 0.087,
+        "03_timbales": 0.0624,
+        "04_bass": 0.1077,
+        "05_piano": 0.0001,
+        "06_guitar": 0.0172,
+        "07_lead": 0.022,
+        "08_vocals": 0.1078
+      }
+    },
+    {
+      "bar": 18,
+      "start": 62.438,
+      "end": 66.084,
+      "chord": "A",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0209,
+        "02_bombo": 0.0622,
+        "03_timbales": 0.0541,
+        "04_bass": 0.0876,
+        "05_piano": 0.0001,
+        "06_guitar": 0.0134,
+        "07_lead": 0.0636,
+        "08_vocals": 0.0304
+      }
+    },
+    {
+      "bar": 19,
+      "start": 66.084,
+      "end": 69.73,
+      "chord": "A",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "guitar",
+        "lead"
+      ],
+      "has_vocals": false,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0294,
+        "02_bombo": 0.0779,
+        "03_timbales": 0.0697,
+        "04_bass": 0.1078,
+        "05_piano": 0.0001,
+        "06_guitar": 0.0227,
+        "07_lead": 0.0579,
+        "08_vocals": 0.0001
+      }
+    },
+    {
+      "bar": 20,
+      "start": 69.73,
+      "end": 73.375,
+      "chord": "Dm",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.025,
+        "02_bombo": 0.0706,
+        "03_timbales": 0.0638,
+        "04_bass": 0.101,
+        "05_piano": 0.0001,
+        "06_guitar": 0.0144,
+        "07_lead": 0.0658,
+        "08_vocals": 0.0625
+      }
+    },
+    {
+      "bar": 21,
+      "start": 73.375,
+      "end": 76.997,
+      "chord": "A#",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0329,
+        "02_bombo": 0.0815,
+        "03_timbales": 0.0701,
+        "04_bass": 0.1134,
+        "05_piano": 0.0001,
+        "06_guitar": 0.0188,
+        "07_lead": 0.0294,
+        "08_vocals": 0.1048
+      }
+    },
+    {
+      "bar": 22,
+      "start": 76.997,
+      "end": 80.62,
+      "chord": "C",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0307,
+        "02_bombo": 0.0769,
+        "03_timbales": 0.0652,
+        "04_bass": 0.1177,
+        "05_piano": 0.0023,
+        "06_guitar": 0.0166,
+        "07_lead": 0.0231,
+        "08_vocals": 0.1127
+      }
+    },
+    {
+      "bar": 23,
+      "start": 80.62,
+      "end": 84.265,
+      "chord": "A#",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": false,
+      "densidad_instrumental": 5,
+      "rms_detallado": {
+        "01_guiro": 0.0305,
+        "02_bombo": 0.0795,
+        "03_timbales": 0.069,
+        "04_bass": 0.112,
+        "05_piano": 0.0087,
+        "06_guitar": 0.0194,
+        "07_lead": 0.008,
+        "08_vocals": 0.1196
+      }
+    },
+    {
+      "bar": 24,
+      "start": 84.265,
+      "end": 87.888,
+      "chord": "C",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "piano",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": false,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0291,
+        "02_bombo": 0.0756,
+        "03_timbales": 0.0735,
+        "04_bass": 0.1118,
+        "05_piano": 0.0239,
+        "06_guitar": 0.0169,
+        "07_lead": 0.0001,
+        "08_vocals": 0.0949
+      }
+    },
+    {
+      "bar": 25,
+      "start": 87.888,
+      "end": 91.533,
+      "chord": "C",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": false,
+      "densidad_instrumental": 5,
+      "rms_detallado": {
+        "01_guiro": 0.0299,
+        "02_bombo": 0.0834,
+        "03_timbales": 0.0742,
+        "04_bass": 0.1137,
+        "05_piano": 0.0146,
+        "06_guitar": 0.0161,
+        "07_lead": 0.0001,
+        "08_vocals": 0.0954
+      }
+    },
+    {
+      "bar": 26,
+      "start": 91.533,
+      "end": 95.155,
+      "chord": "A",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.031,
+        "02_bombo": 0.0805,
+        "03_timbales": 0.0732,
+        "04_bass": 0.1081,
+        "05_piano": 0.0057,
+        "06_guitar": 0.0193,
+        "07_lead": 0.0328,
+        "08_vocals": 0.0885
+      }
+    },
+    {
+      "bar": 27,
+      "start": 95.155,
+      "end": 98.801,
+      "chord": "Fm",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "guitar",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": false,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0303,
+        "02_bombo": 0.0755,
+        "03_timbales": 0.0704,
+        "04_bass": 0.1081,
+        "05_piano": 0.0032,
+        "06_guitar": 0.0209,
+        "07_lead": 0.0076,
+        "08_vocals": 0.1054
+      }
+    },
+    {
+      "bar": 28,
+      "start": 98.801,
+      "end": 102.423,
+      "chord": "A",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0272,
+        "02_bombo": 0.0717,
+        "03_timbales": 0.075,
+        "04_bass": 0.0967,
+        "05_piano": 0.0062,
+        "06_guitar": 0.0142,
+        "07_lead": 0.0216,
+        "08_vocals": 0.1138
+      }
+    },
+    {
+      "bar": 29,
+      "start": 102.423,
+      "end": 106.069,
+      "chord": "D",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": false,
+      "densidad_instrumental": 5,
+      "rms_detallado": {
+        "01_guiro": 0.0261,
+        "02_bombo": 0.0811,
+        "03_timbales": 0.0631,
+        "04_bass": 0.0998,
+        "05_piano": 0.0002,
+        "06_guitar": 0.0098,
+        "07_lead": 0.0181,
+        "08_vocals": 0.0979
+      }
+    },
+    {
+      "bar": 30,
+      "start": 106.069,
+      "end": 109.691,
+      "chord": "A",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": false,
+      "densidad_instrumental": 5,
+      "rms_detallado": {
+        "01_guiro": 0.0258,
+        "02_bombo": 0.0767,
+        "03_timbales": 0.0657,
+        "04_bass": 0.095,
+        "05_piano": 0.0001,
+        "06_guitar": 0.0145,
+        "07_lead": 0.0169,
+        "08_vocals": 0.0909
+      }
+    },
+    {
+      "bar": 31,
+      "start": 109.691,
+      "end": 113.337,
+      "chord": "E",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.0224,
+        "02_bombo": 0.0681,
+        "03_timbales": 0.0572,
+        "04_bass": 0.1042,
+        "05_piano": 0.0001,
+        "06_guitar": 0.0107,
+        "07_lead": 0.023,
+        "08_vocals": 0.1097
+      }
+    },
+    {
+      "bar": 32,
+      "start": 113.337,
+      "end": 116.982,
+      "chord": "A",
+      "instrumentos_activos": [
+        "guiro",
+        "bombo",
+        "timbales",
+        "bass",
+        "lead",
+        "vocals"
+      ],
+      "has_vocals": true,
+      "has_bombo": true,
+      "has_lead": true,
+      "densidad_instrumental": 6,
+      "rms_detallado": {
+        "01_guiro": 0.028,
+        "02_bombo": 0.0769,
+        "03_timbales": 0.0579,
+        "04_bass": 0.1043,
+        "05_piano": 0.0002,
+        "06_guitar": 0.0148,
+        "07_lead": 0.0209,
+        "08_vocals": 0.1183
+      }
     }
   ],
   "stems_paths": {
-    "drums": "data/stems/cumbia_002/cumbia_002_drums.wav",
-    "bass": "data/stems/cumbia_002/cumbia_002_bass.wav",
-    "other": "data/stems/cumbia_002/cumbia_002_other.wav",
-    "vocals": "data/stems/cumbia_002/cumbia_002_vocals.wav"
+    "01_guiro": "data/stems/cumbia_002/cumbia_002_01_guiro.wav",
+    "02_bombo": "data/stems/cumbia_002/cumbia_002_02_bombo.wav",
+    "03_timbales": "data/stems/cumbia_002/cumbia_002_03_timbales.wav",
+    "04_bass": "data/stems/cumbia_002/cumbia_002_04_bass.wav",
+    "05_piano": "data/stems/cumbia_002/cumbia_002_05_piano.wav",
+    "06_guitar": "data/stems/cumbia_002/cumbia_002_06_guitar.wav",
+    "07_lead": "data/stems/cumbia_002/cumbia_002_07_lead.wav",
+    "08_vocals": "data/stems/cumbia_002/cumbia_002_08_vocals.wav"
   },
   "metadata_origen": {
     "song_id": "cumbia_002",
@@ -509,11 +1107,11 @@
     "title": "El Parrandero",
     "artist": "Los Palmeras",
     "subgenre": "santafesina_bailable",
-    "bpm": 104,
-    "key": "C",
+    "bpm": 129.2,
+    "key": "A",
     "mood": "fiesta_baile",
     "lead_instrument": "acordeon",
     "structure_notes": "intro-verso-estribillo-punteo_acordeon-outro",
-    "status": "raw"
+    "status": "analyzed"
   }
 }
