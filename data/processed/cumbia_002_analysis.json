@@ -1,0 +1,519 @@
+{
+  "song_id": "cumbia_002",
+  "file_name": "cumbia_002_los_palmeras_el_parrandero.mp3",
+  "bpm": 129.2,
+  "tonalidad_predominante": "A",
+  "total_compases": 87,
+  "duracion_segundos": 164.29,
+  "tramos": [
+    {
+      "tipo": "Intro",
+      "compas_inicio": 1,
+      "compas_fin": 1,
+      "tiempo_inicio": 1.556,
+      "tiempo_fin": 3.367,
+      "duracion_compases": 1,
+      "presencia_voz": false,
+      "acordes": [
+        "A"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 2,
+      "compas_fin": 5,
+      "tiempo_inicio": 3.367,
+      "tiempo_fin": 10.658,
+      "duracion_compases": 4,
+      "presencia_voz": true,
+      "acordes": [
+        "A",
+        "A",
+        "D",
+        "Dm"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 6,
+      "compas_fin": 7,
+      "tiempo_inicio": 10.658,
+      "tiempo_fin": 14.28,
+      "duracion_compases": 2,
+      "presencia_voz": true,
+      "acordes": [
+        "Dm",
+        "F"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 8,
+      "compas_fin": 8,
+      "tiempo_inicio": 14.28,
+      "tiempo_fin": 16.091,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "G"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 9,
+      "compas_fin": 9,
+      "tiempo_inicio": 16.091,
+      "tiempo_fin": 17.926,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "F"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 10,
+      "compas_fin": 12,
+      "tiempo_inicio": 17.926,
+      "tiempo_fin": 23.359,
+      "duracion_compases": 3,
+      "presencia_voz": true,
+      "acordes": [
+        "Dm",
+        "F",
+        "C"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 13,
+      "compas_fin": 13,
+      "tiempo_inicio": 23.359,
+      "tiempo_fin": 25.17,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "C"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 14,
+      "compas_fin": 15,
+      "tiempo_inicio": 25.17,
+      "tiempo_fin": 28.816,
+      "duracion_compases": 2,
+      "presencia_voz": true,
+      "acordes": [
+        "D",
+        "C"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 16,
+      "compas_fin": 18,
+      "tiempo_inicio": 28.816,
+      "tiempo_fin": 34.273,
+      "duracion_compases": 3,
+      "presencia_voz": true,
+      "acordes": [
+        "Dm",
+        "A",
+        "Gm"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 19,
+      "compas_fin": 19,
+      "tiempo_inicio": 34.273,
+      "tiempo_fin": 36.084,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "C"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 20,
+      "compas_fin": 20,
+      "tiempo_inicio": 36.084,
+      "tiempo_fin": 37.895,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "E"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 21,
+      "compas_fin": 21,
+      "tiempo_inicio": 37.895,
+      "tiempo_fin": 39.729,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "Dm"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 22,
+      "compas_fin": 22,
+      "tiempo_inicio": 39.729,
+      "tiempo_fin": 41.564,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "A"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 23,
+      "compas_fin": 23,
+      "tiempo_inicio": 41.564,
+      "tiempo_fin": 43.375,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "G"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 24,
+      "compas_fin": 24,
+      "tiempo_inicio": 43.375,
+      "tiempo_fin": 45.186,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "A"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 25,
+      "compas_fin": 34,
+      "tiempo_inicio": 45.186,
+      "tiempo_fin": 63.367,
+      "duracion_compases": 10,
+      "presencia_voz": true,
+      "acordes": [
+        "D",
+        "E",
+        "A#m",
+        "A",
+        "A",
+        "A",
+        "A#",
+        "A",
+        "A",
+        "Dm"
+      ]
+    },
+    {
+      "tipo": "Tramo_Bailable_Punteo",
+      "compas_inicio": 35,
+      "compas_fin": 39,
+      "tiempo_inicio": 63.367,
+      "tiempo_fin": 72.446,
+      "duracion_compases": 5,
+      "presencia_voz": false,
+      "acordes": [
+        "Am",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 40,
+      "compas_fin": 40,
+      "tiempo_inicio": 72.446,
+      "tiempo_fin": 74.257,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "Dm"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 41,
+      "compas_fin": 41,
+      "tiempo_inicio": 74.257,
+      "tiempo_fin": 76.069,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "A#"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 42,
+      "compas_fin": 44,
+      "tiempo_inicio": 76.069,
+      "tiempo_fin": 81.525,
+      "duracion_compases": 3,
+      "presencia_voz": true,
+      "acordes": [
+        "C",
+        "C",
+        "A"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 45,
+      "compas_fin": 45,
+      "tiempo_inicio": 81.525,
+      "tiempo_fin": 83.336,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "A#"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 46,
+      "compas_fin": 47,
+      "tiempo_inicio": 83.336,
+      "tiempo_fin": 86.959,
+      "duracion_compases": 2,
+      "presencia_voz": true,
+      "acordes": [
+        "C",
+        "C"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 48,
+      "compas_fin": 52,
+      "tiempo_inicio": 86.959,
+      "tiempo_fin": 96.061,
+      "duracion_compases": 5,
+      "presencia_voz": true,
+      "acordes": [
+        "Cm",
+        "Dm",
+        "Cm",
+        "A",
+        "Dm"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 53,
+      "compas_fin": 53,
+      "tiempo_inicio": 96.061,
+      "tiempo_fin": 97.895,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "Fm"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 54,
+      "compas_fin": 55,
+      "tiempo_inicio": 97.895,
+      "tiempo_fin": 101.518,
+      "duracion_compases": 2,
+      "presencia_voz": true,
+      "acordes": [
+        "E",
+        "A"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 56,
+      "compas_fin": 67,
+      "tiempo_inicio": 101.518,
+      "tiempo_fin": 123.321,
+      "duracion_compases": 12,
+      "presencia_voz": true,
+      "acordes": [
+        "Dm",
+        "D",
+        "A",
+        "A",
+        "Em",
+        "A#",
+        "A",
+        "A",
+        "A",
+        "A#",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 68,
+      "compas_fin": 68,
+      "tiempo_inicio": 123.321,
+      "tiempo_fin": 125.132,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "A"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 69,
+      "compas_fin": 69,
+      "tiempo_inicio": 125.132,
+      "tiempo_fin": 126.967,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "Dm"
+      ]
+    },
+    {
+      "tipo": "Tramo_Bailable_Punteo",
+      "compas_inicio": 70,
+      "compas_fin": 76,
+      "tiempo_inicio": 126.967,
+      "tiempo_fin": 139.714,
+      "duracion_compases": 7,
+      "presencia_voz": true,
+      "acordes": [
+        "A",
+        "A",
+        "Am",
+        "Dm",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 77,
+      "compas_fin": 79,
+      "tiempo_inicio": 139.714,
+      "tiempo_fin": 145.148,
+      "duracion_compases": 3,
+      "presencia_voz": true,
+      "acordes": [
+        "A#",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "tipo": "Estribillo",
+      "compas_inicio": 80,
+      "compas_fin": 80,
+      "tiempo_inicio": 145.148,
+      "tiempo_fin": 146.959,
+      "duracion_compases": 1,
+      "presencia_voz": true,
+      "acordes": [
+        "A"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 81,
+      "compas_fin": 87,
+      "tiempo_inicio": 146.959,
+      "tiempo_fin": 159.684,
+      "duracion_compases": 7,
+      "presencia_voz": true,
+      "acordes": [
+        "A#",
+        "A",
+        "A",
+        "A",
+        "A#",
+        "A",
+        "A"
+      ]
+    }
+  ],
+  "silencios_llamada_respuesta": [
+    {
+      "compas": 4,
+      "tiempo_segundos": 7.012,
+      "acorde": "D",
+      "en_seccion": "Verso",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 70,
+      "tiempo_segundos": 126.967,
+      "acorde": "A",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 71,
+      "tiempo_segundos": 128.801,
+      "acorde": "A",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 72,
+      "tiempo_segundos": 130.612,
+      "acorde": "Am",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 74,
+      "tiempo_segundos": 134.235,
+      "acorde": "A",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 75,
+      "tiempo_segundos": 136.069,
+      "acorde": "A",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 76,
+      "tiempo_segundos": 137.88,
+      "acorde": "A",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    }
+  ],
+  "stems_paths": {
+    "drums": "data/stems/cumbia_002/drums.wav",
+    "bass": "data/stems/cumbia_002/bass.wav",
+    "other": "data/stems/cumbia_002/other.wav",
+    "vocals": "data/stems/cumbia_002/vocals.wav"
+  },
+  "metadata_origen": {
+    "song_id": "cumbia_002",
+    "file_name": "cumbia_002_los_palmeras_el_parrandero.mp3",
+    "title": "El Parrandero",
+    "artist": "Los Palmeras",
+    "subgenre": "santafesina_bailable",
+    "bpm": 104,
+    "key": "C",
+    "mood": "fiesta_baile",
+    "lead_instrument": "acordeon",
+    "structure_notes": "intro-verso-estribillo-punteo_acordeon-outro",
+    "status": "raw"
+  }
+}
