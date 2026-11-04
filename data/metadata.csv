@@ -1,3 +1,4 @@
 song_id,file_name,title,artist,subgenre,bpm,key,mood,lead_instrument,structure_notes,status
-santafesina_001,ejemplo_cancion_1.mp3,Ejemplo Titulo 1,Los Palmeras,santafesina,102,Am,desamor,acordeon,intro-verso-estribillo-punteo-outro,pending
-villera_001,ejemplo_cancion_2.mp3,Ejemplo Titulo 2,Damas Gratis,villera,92,Dm,fiesta_barrial,sintetizador,intro-verso-estribillo-corte-outro,pending
+cumbia_001,cumbia_001_los_palmeras_olvidala.mp3,Olvídala,Los Palmeras,santafesina_romantica,100,Am,desamor_melancolia,acordeon,intro-verso-estribillo-punteo-outro,raw
+cumbia_002,cumbia_002_los_palmeras_el_bombon_asesino.mp3,El Bombón Asesino,Los Palmeras,santafesina_bailable,102,Am,fiesta_baile,acordeon,intro-verso-estribillo-corte_timbal-outro,raw
+cumbia_003,cumbia_003_los_del_bohio_adios_lady.mp3,Adiós Lady,Los Del Bohío,santafesina_guitarra,98,Dm,nostalgia_desamor,guitarra,intro-verso-estribillo-solo_guitarra-outro,raw
