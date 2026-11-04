@@ -1,4 +1,4 @@
 song_id,file_name,title,artist,subgenre,bpm,key,mood,lead_instrument,structure_notes,status
-cumbia_001,cumbia_001_los_palmeras_olvidala.mp3,Olvídala,Los Palmeras,santafesina_romantica,100,Am,desamor_melancolia,acordeon,intro-verso-estribillo-punteo-outro,raw
-cumbia_002,cumbia_002_los_palmeras_el_parrandero.mp3,El Parrandero,Los Palmeras,santafesina_bailable,104,C,fiesta_baile,acordeon,intro-verso-estribillo-punteo_acordeon-outro,raw
-cumbia_003,cumbia_003_los_del_bohio_adios_lady.mp3,Adiós Lady,Los Del Bohío,santafesina_guitarra,98,Dm,nostalgia_desamor,guitarra,intro-verso-estribillo-solo_guitarra-outro,raw
+cumbia_001,cumbia_001_los_palmeras_olvidala.mp3,Olvídala,Los Palmeras,santafesina_romantica,66.3,D,desamor_melancolia,acordeon,intro-verso-estribillo-punteo-outro,analyzed
+cumbia_002,cumbia_002_los_palmeras_el_parrandero.mp3,El Parrandero,Los Palmeras,santafesina_bailable,129.2,A,fiesta_baile,acordeon,intro-verso-estribillo-punteo_acordeon-outro,analyzed
+cumbia_003,cumbia_003_los_del_bohio_adios_lady.mp3,Adiós Lady,Los Del Bohío,santafesina_guitarra,95.7,Em,nostalgia_desamor,guitarra,intro-verso-estribillo-solo_guitarra-outro,analyzed

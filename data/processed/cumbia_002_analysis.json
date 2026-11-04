@@ -498,10 +498,10 @@
     }
   ],
   "stems_paths": {
-    "drums": "data/stems/cumbia_002/drums.wav",
-    "bass": "data/stems/cumbia_002/bass.wav",
-    "other": "data/stems/cumbia_002/other.wav",
-    "vocals": "data/stems/cumbia_002/vocals.wav"
+    "drums": "data/stems/cumbia_002/cumbia_002_drums.wav",
+    "bass": "data/stems/cumbia_002/cumbia_002_bass.wav",
+    "other": "data/stems/cumbia_002/cumbia_002_other.wav",
+    "vocals": "data/stems/cumbia_002/cumbia_002_vocals.wav"
   },
   "metadata_origen": {
     "song_id": "cumbia_002",

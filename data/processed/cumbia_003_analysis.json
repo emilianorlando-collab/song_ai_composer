@@ -1,0 +1,271 @@
+{
+  "song_id": "cumbia_003",
+  "file_name": "cumbia_003_los_del_bohio_adios_lady.mp3",
+  "bpm": 95.7,
+  "tonalidad_predominante": "Em",
+  "total_compases": 65,
+  "duracion_segundos": 181.08,
+  "tramos": [
+    {
+      "tipo": "Intro",
+      "compas_inicio": 1,
+      "compas_fin": 8,
+      "tiempo_inicio": 1.161,
+      "tiempo_fin": 21.571,
+      "duracion_compases": 8,
+      "presencia_voz": false,
+      "acordes": [
+        "A",
+        "E",
+        "E",
+        "E",
+        "B",
+        "E",
+        "E",
+        "Am"
+      ]
+    },
+    {
+      "tipo": "Tramo_Bailable_Punteo",
+      "compas_inicio": 9,
+      "compas_fin": 9,
+      "tiempo_inicio": 21.571,
+      "tiempo_fin": 24.172,
+      "duracion_compases": 1,
+      "presencia_voz": false,
+      "acordes": [
+        "Am"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 10,
+      "compas_fin": 29,
+      "tiempo_inicio": 24.172,
+      "tiempo_fin": 75.0,
+      "duracion_compases": 20,
+      "presencia_voz": true,
+      "acordes": [
+        "Am",
+        "B",
+        "E",
+        "F",
+        "G",
+        "G",
+        "G",
+        "Am",
+        "A",
+        "Dm",
+        "B",
+        "Em",
+        "Am",
+        "Em",
+        "Dm",
+        "E",
+        "C",
+        "G",
+        "Dm",
+        "E"
+      ]
+    },
+    {
+      "tipo": "Tramo_Bailable_Punteo",
+      "compas_inicio": 30,
+      "compas_fin": 45,
+      "tiempo_inicio": 75.0,
+      "tiempo_fin": 115.635,
+      "duracion_compases": 16,
+      "presencia_voz": true,
+      "acordes": [
+        "E",
+        "C",
+        "F",
+        "F",
+        "G",
+        "G",
+        "Em",
+        "E",
+        "E",
+        "E",
+        "Em",
+        "Em",
+        "D",
+        "F",
+        "Dm",
+        "E"
+      ]
+    },
+    {
+      "tipo": "Verso",
+      "compas_inicio": 46,
+      "compas_fin": 55,
+      "tiempo_inicio": 115.635,
+      "tiempo_fin": 141.108,
+      "duracion_compases": 10,
+      "presencia_voz": true,
+      "acordes": [
+        "E",
+        "E",
+        "F",
+        "G",
+        "C",
+        "E",
+        "E",
+        "A#",
+        "Dm",
+        "E"
+      ]
+    },
+    {
+      "tipo": "Tramo_Bailable_Punteo",
+      "compas_inicio": 56,
+      "compas_fin": 60,
+      "tiempo_inicio": 141.108,
+      "tiempo_fin": 153.763,
+      "duracion_compases": 5,
+      "presencia_voz": false,
+      "acordes": [
+        "Am",
+        "C",
+        "D",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "tipo": "Outro",
+      "compas_inicio": 61,
+      "compas_fin": 65,
+      "tiempo_inicio": 153.763,
+      "tiempo_fin": 166.417,
+      "duracion_compases": 5,
+      "presencia_voz": false,
+      "acordes": [
+        "Am",
+        "Am",
+        "C",
+        "D",
+        "D"
+      ]
+    }
+  ],
+  "silencios_llamada_respuesta": [
+    {
+      "compas": 30,
+      "tiempo_segundos": 75.0,
+      "acorde": "E",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 31,
+      "tiempo_segundos": 77.648,
+      "acorde": "C",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 32,
+      "tiempo_segundos": 80.179,
+      "acorde": "F",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 33,
+      "tiempo_segundos": 82.733,
+      "acorde": "F",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 35,
+      "tiempo_segundos": 87.818,
+      "acorde": "G",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 36,
+      "tiempo_segundos": 90.349,
+      "acorde": "Em",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 37,
+      "tiempo_segundos": 92.903,
+      "acorde": "E",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 38,
+      "tiempo_segundos": 95.457,
+      "acorde": "E",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 40,
+      "tiempo_segundos": 100.519,
+      "acorde": "Em",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 41,
+      "tiempo_segundos": 103.027,
+      "acorde": "Em",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 42,
+      "tiempo_segundos": 105.535,
+      "acorde": "D",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 43,
+      "tiempo_segundos": 108.089,
+      "acorde": "F",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 44,
+      "tiempo_segundos": 110.62,
+      "acorde": "Dm",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    },
+    {
+      "compas": 45,
+      "tiempo_segundos": 113.104,
+      "acorde": "E",
+      "en_seccion": "Tramo_Bailable_Punteo",
+      "oportunidad_respuesta_solista": true
+    }
+  ],
+  "stems_paths": {
+    "drums": "data/stems/cumbia_003/cumbia_003_drums.wav",
+    "bass": "data/stems/cumbia_003/cumbia_003_bass.wav",
+    "other": "data/stems/cumbia_003/cumbia_003_other.wav",
+    "vocals": "data/stems/cumbia_003/cumbia_003_vocals.wav"
+  },
+  "metadata_origen": {
+    "song_id": "cumbia_003",
+    "file_name": "cumbia_003_los_del_bohio_adios_lady.mp3",
+    "title": "Adiós Lady",
+    "artist": "Los Del Bohío",
+    "subgenre": "santafesina_guitarra",
+    "bpm": 98,
+    "key": "Dm",
+    "mood": "nostalgia_desamor",
+    "lead_instrument": "guitarra",
+    "structure_notes": "intro-verso-estribillo-solo_guitarra-outro",
+    "status": "raw"
+  }
+}
