@@ -5,6 +5,7 @@ from src.composer.multimodal_input import MultimodalInputHandler
 from src.composer.symbolic_tokenizer import SymbolicMultitrackTokenizer
 from src.composer.multitrack_transformer import MultitrackCrossAttentionTransformer
 from src.composer.critic_evaluator import MusicCriticEvaluator
+from src.composer.sentiment_lyricist import SentimentLyricistEngine
 from src.synthesizer.real_instrument_engine import RealInstrumentEngine
 from src.composer.studio_engine import StudioMixer
 import torch
@@ -14,19 +15,21 @@ class SongAIOrchestrator:
     Orquestador Central End-to-End de Song AI Composer.
     
     Integra de punta a punta todas las fases de un estudio de grabación:
-    1. Pre-Producción Multimodal (Prompt, Letra, Tarareo o Zero-shot)
+    1. Modelado de Sentimiento y Narrativa Lírica (Idea Principal + Ideas Secundarias)
     2. Composición Lírica y Métrica con pausas expresivas
     3. Generación Neuronal Multitrack con Transformer entrenado en PyTorch
     4. Auditoría Crítica e Inpainting Quirúrgico de Corrección
     5. Grabación y Recombinación Acústica de Estudio con Instrumentos REALES del Dataset
-    6. Mezcla y Masterización Automatizada de Estudio (-14 LUFS / True Peak Limiter)
-    7. Entrega Profesional: Master WAV + Pack de 8 Stems DAW + Letra + Manifiesto
+    6. Síntesis Vocal Cantada Afinada a la escala en español argentino
+    7. Mezcla y Masterización Automatizada de Estudio (-14 LUFS / True Peak Limiter)
+    8. Entrega Profesional: Master WAV + Pack de 8 Stems DAW + Letra + Concepto Narrativo + Manifiesto
     """
 
     def __init__(self, outputs_root="outputs"):
         self.outputs_root = outputs_root
         self.input_handler = MultimodalInputHandler()
         self.tokenizer = SymbolicMultitrackTokenizer()
+        self.lyricist = SentimentLyricistEngine()
         
         # Cargar el Transformer Neuronal Profundo
         self.neural_composer = MultitrackCrossAttentionTransformer(self.tokenizer.vocab_sizes)
@@ -107,18 +110,20 @@ Solo queda el recuerdo de tu adiós."""
             mood=mood, bpm=bpm, key=key
         )
 
-        # FASE 2: Letra y Prosodia
-        if not directives["lyrics"]:
-            print("\n[LETRISTA IA] Creando letra original adaptada al sentimiento...")
-            lyrics_content = self.generate_cumbia_lyrics(mood=directives["mood"])
-            directives["lyrics"] = self.input_handler.parse_user_lyrics(lyrics_content)
-        else:
-            lyrics_content = lyrics_text
+        # FASE 2: Modelado Emocional y Narrativa Lírica (Idea Principal + Ideas Secundarias)
+        print("\n[LETRISTA IA] Creando narrativa lírica y desglose de ideas...")
+        concept = self.lyricist.generate_emotional_concept(mood=directives["mood"], user_prompt=prompt)
+        lyrics_content = self.lyricist.get_full_lyrics_text(concept)
+        directives["lyrics"] = self.input_handler.parse_user_lyrics(lyrics_content)
 
         lyrics_file_path = os.path.join(session_out_dir, f"{song_slug}_lyrics.txt")
         with open(lyrics_file_path, "w", encoding="utf-8") as f:
             f.write(lyrics_content)
-        print(f"  📄 Letra y marcas de respiración guardadas en: {lyrics_file_path}")
+
+        concept_file_path = os.path.join(session_out_dir, f"{song_slug}_narrative_concept.json")
+        with open(concept_file_path, "w", encoding="utf-8") as f:
+            json.dump(concept, f, indent=2, ensure_ascii=False)
+        print(f"  📄 Concepto narrativo y letra guardados en: {session_out_dir}")
 
         # FASE 3: Generación Neuronal Multitrack (Multitrack Transformer)
         score_events = self.neural_composer.generate_multitrack_score(directives, total_bars=32)
@@ -127,9 +132,9 @@ Solo queda el recuerdo de tu adiós."""
         issues = self.critic.audit_score(score_events, key=directives["key"])
         verified_score = self.critic.apply_surgical_inpainting(score_events, issues, key=directives["key"])
 
-        # FASE 5: Grabación y Recombinación Acústica con Instrumentos REALES del Dataset
+        # FASE 5: Grabación y Recombinación Acústica con Instrumentos REALES y Canto Afinado
         stems_audio_buffers = self.real_engine.render_real_studio_multitrack(
-            directives, lyrics_text=lyrics_content, total_bars=32
+            directives, lyric_concept=concept, total_bars=32
         )
 
         # FASE 6: Consola Virtual de Mezcla y Masterización DAW (StudioMixer)
@@ -165,6 +170,6 @@ Solo queda el recuerdo de tu adiós."""
 if __name__ == "__main__":
     orchestrator = SongAIOrchestrator()
     res = orchestrator.compose_and_produce_song(
-        prompt="Cumbia santafesina de fiesta bailable",
-        song_title="El Parrandero del Futuro"
+        prompt="Cumbia santafesina de desamor desgarrador para llorar bailando con acordeón",
+        song_title="El Desengaño en el Baile"
     )

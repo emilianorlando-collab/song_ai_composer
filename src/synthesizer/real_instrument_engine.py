@@ -4,6 +4,7 @@ import numpy as np
 import soundfile as sf
 import librosa
 import scipy.signal as signal
+from src.synthesizer.singing_voice_engine import SingingVoiceEngine
 
 class RealInstrumentEngine:
     """
@@ -17,12 +18,13 @@ class RealInstrumentEngine:
       - Bajo eléctrico real con tono Fender Jazz Bass.
       - Acordes reales de piano de cumbia santafesina.
       - Punteos reales de acordeón de Marcos Camino (Los Palmeras).
-      - Voz real argentina que canta/recita la letra de la canción (con silencios y respiraciones).
+      - Voz real cantada afinada a la escala con la letra poética.
     """
 
     def __init__(self, stems_root="data/stems", sample_rate=44100):
         self.stems_root = stems_root
         self.sr = sample_rate
+        self.singing_engine = SingingVoiceEngine(sample_rate=sample_rate)
 
     def load_clean_slice(self, stem_path, start_sec, dur_sec):
         """Carga un fragmento de audio real de alta calidad en 44.1kHz estéreo."""
@@ -112,12 +114,13 @@ class RealInstrumentEngine:
 
         return vocal_track
 
-    def render_real_studio_multitrack(self, directives, lyrics_text=None, total_bars=32):
+    def render_real_studio_multitrack(self, directives, lyric_concept=None, total_bars=32):
         """
         Construye la sesión completa de 8 pistas utilizando el audio REAL del dataset de cumbia:
-        Güiro de Palmeras, Bombo real, Timbales reales, Acordeón de Marcos Camino y Voz.
+        Güiro de Palmeras, Bombo real, Timbales reales, Acordeón de Marcos Camino y Voz cantada afinada.
         """
         bpm = float(directives.get("bpm", 105.0))
+        key = directives.get("key", "Dm")
         subgenre = directives.get("subgenre", "santafesina_acordeon")
         bar_dur = (60.0 / bpm) * 4.0
         total_dur_sec = total_bars * bar_dur
@@ -126,7 +129,7 @@ class RealInstrumentEngine:
         print(f"\n=======================================================")
         print(f"🎛️  PRODUCCIÓN REAL DE ESTUDIO (SONIDO ACÚSTICO AUTÉNTICO)")
         print(f"=======================================================")
-        print(f"  • BPM: {bpm} | Duración: {total_dur_sec:.1f} seg ({total_bars} compases)")
+        print(f"  • BPM: {bpm} | Tonalidad: {key} | Duración: {total_dur_sec:.1f} seg ({total_bars} compases)")
 
         # Pistas fuente de referencia del dataset
         palmeras_guiro_path = "data/stems/cumbia_002/cumbia_002_01_guiro.wav"
@@ -243,12 +246,14 @@ class RealInstrumentEngine:
             e_solo = min(total_samples, s_solo + len(punteo_lead))
             stems["07_lead"][s_solo:e_solo] = punteo_lead[:e_solo - s_solo] * 1.15
 
-        # 8. PISTA 08: VOZ REAL EN ESPAÑOL ARGENTINO CON LA LETRA
-        if lyrics_text:
-            vocal_track = self.generate_real_vocal_audio(lyrics_text, bpm=bpm, total_bars=total_bars)
+        # 8. PISTA 08: VOZ REAL CANTADA AFINADA CON PROSODIA Y SILENCIOS
+        if lyric_concept:
+            vocal_track = self.singing_engine.generate_full_vocal_track(
+                lyric_concept, key=key, bpm=bpm, total_bars=total_bars
+            )
             stems["08_vocals"] = vocal_track
 
-        print("  ✅ 8 Pistas multitrack ensambladas con instrumentos reales de estudio.")
+        print("  ✅ 8 Pistas multitrack ensambladas con instrumentos reales de estudio y voz cantada.")
         return stems
 
 if __name__ == "__main__":
