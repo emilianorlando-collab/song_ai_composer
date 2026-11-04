@@ -35,11 +35,14 @@ ENV/
 .AppleDouble
 .LSOverride
 
-# Large Audio Datasets (Raw and Processed Stems stay local on Disco T7)
+# Large Audio Datasets and Output Audio (Raw, Processed Stems, and Master WAVs stay local on Disco T7)
 data/raw/*
 !data/raw/.gitkeep
 data/stems/*
 !data/stems/.gitkeep
+outputs/**/*.wav
+outputs/**/*.mp3
+outputs/**/*.flac
 outputs/audio/*
 !outputs/audio/.gitkeep
 

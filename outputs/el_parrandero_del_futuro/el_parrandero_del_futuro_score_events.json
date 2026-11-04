@@ -1,0 +1,9794 @@
+[
+  {
+    "track": "01_guiro",
+    "bar": 1,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 1,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 1,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 1,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 1,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 1,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 1,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 1,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 1,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "INTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 1,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "INTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 1,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 1,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 1,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 1,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 1,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 1,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 1,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 1,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 1,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 1,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 1,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 1,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 1,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 1,
+    "step": 0,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 1,
+    "step": 2,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 1,
+    "step": 4,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 1,
+    "step": 6,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 1,
+    "step": 8,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 1,
+    "step": 10,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 1,
+    "step": 12,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 1,
+    "step": 14,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 2,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 2,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 2,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 2,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 2,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 2,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 2,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 2,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 2,
+    "step": 0,
+    "pitch": 50,
+    "duration": 3,
+    "velocity": 100,
+    "section": "INTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 2,
+    "step": 6,
+    "pitch": 57,
+    "duration": 3,
+    "velocity": 95,
+    "section": "INTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 2,
+    "step": 10,
+    "pitch": 62,
+    "duration": 4,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 2,
+    "step": 2,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 2,
+    "step": 2,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 2,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 2,
+    "step": 6,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 2,
+    "step": 6,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 2,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 2,
+    "step": 10,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 2,
+    "step": 10,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 2,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 2,
+    "step": 14,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 2,
+    "step": 14,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 2,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 2,
+    "step": 0,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 2,
+    "step": 2,
+    "pitch": 90,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 2,
+    "step": 4,
+    "pitch": 91,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 2,
+    "step": 6,
+    "pitch": 93,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 2,
+    "step": 8,
+    "pitch": 91,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 2,
+    "step": 10,
+    "pitch": 90,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 2,
+    "step": 12,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 2,
+    "step": 14,
+    "pitch": 90,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 3,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 3,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 3,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 3,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 3,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 3,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 3,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 3,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 3,
+    "step": 0,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 100,
+    "section": "INTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 3,
+    "step": 6,
+    "pitch": 59,
+    "duration": 3,
+    "velocity": 95,
+    "section": "INTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 3,
+    "step": 10,
+    "pitch": 64,
+    "duration": 4,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 3,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 3,
+    "step": 2,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 3,
+    "step": 2,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 3,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 3,
+    "step": 6,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 3,
+    "step": 6,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 3,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 3,
+    "step": 10,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 3,
+    "step": 10,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 3,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 3,
+    "step": 14,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 3,
+    "step": 14,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 3,
+    "step": 0,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 3,
+    "step": 2,
+    "pitch": 92,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 3,
+    "step": 4,
+    "pitch": 93,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 3,
+    "step": 6,
+    "pitch": 95,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 3,
+    "step": 8,
+    "pitch": 93,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 3,
+    "step": 10,
+    "pitch": 92,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 3,
+    "step": 12,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 3,
+    "step": 14,
+    "pitch": 92,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 4,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 4,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 4,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 4,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 4,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 4,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 4,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 4,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 4,
+    "step": 8,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 90,
+    "section": "INTRO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 4,
+    "step": 9,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 94,
+    "section": "INTRO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 4,
+    "step": 10,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 98,
+    "section": "INTRO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 4,
+    "step": 11,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 102,
+    "section": "INTRO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 4,
+    "step": 12,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 106,
+    "section": "INTRO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 4,
+    "step": 13,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 4,
+    "step": 14,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 114,
+    "section": "INTRO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 4,
+    "step": 15,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 118,
+    "section": "INTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 4,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "INTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 4,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "INTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 4,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 4,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 4,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 4,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 4,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 4,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 4,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 4,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 4,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 4,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 4,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 4,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 4,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 4,
+    "step": 0,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 4,
+    "step": 2,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 4,
+    "step": 4,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 4,
+    "step": 6,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 4,
+    "step": 8,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 4,
+    "step": 10,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 4,
+    "step": 12,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 4,
+    "step": 14,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "INTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 5,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 5,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 5,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 5,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 5,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 5,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 5,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 5,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 5,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 5,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 5,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 5,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 5,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 5,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 5,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 5,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 5,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 5,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 5,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 5,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 5,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 5,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 5,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 5,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 5,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 5,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 5,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 5,
+    "step": 0,
+    "pitch": 81,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 5,
+    "step": 4,
+    "pitch": 85,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 5,
+    "step": 8,
+    "pitch": 83,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 5,
+    "step": 12,
+    "pitch": 81,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 6,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 6,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 6,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 6,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 6,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 6,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 6,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 6,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 6,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 6,
+    "step": 0,
+    "pitch": 50,
+    "duration": 3,
+    "velocity": 100,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 6,
+    "step": 6,
+    "pitch": 57,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 6,
+    "step": 10,
+    "pitch": 62,
+    "duration": 4,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 6,
+    "step": 2,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 6,
+    "step": 2,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 6,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 6,
+    "step": 6,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 6,
+    "step": 6,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 6,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 6,
+    "step": 10,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 6,
+    "step": 10,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 6,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 6,
+    "step": 14,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 6,
+    "step": 14,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 6,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 6,
+    "step": 2,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 6,
+    "step": 6,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 6,
+    "step": 10,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 6,
+    "step": 14,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 6,
+    "step": 0,
+    "pitch": 86,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 6,
+    "step": 4,
+    "pitch": 90,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 6,
+    "step": 8,
+    "pitch": 88,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 6,
+    "step": 12,
+    "pitch": 86,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 7,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 7,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 7,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 7,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 7,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 7,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 7,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 7,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 7,
+    "step": 0,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 100,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 7,
+    "step": 6,
+    "pitch": 59,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 7,
+    "step": 10,
+    "pitch": 64,
+    "duration": 4,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 7,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 7,
+    "step": 2,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 7,
+    "step": 2,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 7,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 7,
+    "step": 6,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 7,
+    "step": 6,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 7,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 7,
+    "step": 10,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 7,
+    "step": 10,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 7,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 7,
+    "step": 14,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 7,
+    "step": 14,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 7,
+    "step": 2,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 7,
+    "step": 6,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 7,
+    "step": 10,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 7,
+    "step": 14,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 7,
+    "step": 0,
+    "pitch": 88,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 7,
+    "step": 4,
+    "pitch": 92,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 7,
+    "step": 8,
+    "pitch": 90,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 7,
+    "step": 12,
+    "pitch": 88,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 8,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 8,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 8,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 8,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 8,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 8,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 8,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 8,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 8,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 8,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 8,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 8,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 8,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 8,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 8,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 8,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 8,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 8,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 8,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 8,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 8,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 8,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 8,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 8,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 8,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 8,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 8,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 8,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 8,
+    "step": 2,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 115,
+    "section": "CONTESTACION_SOLISTA"
+  },
+  {
+    "track": "07_lead",
+    "bar": 8,
+    "step": 5,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 115,
+    "section": "CONTESTACION_SOLISTA"
+  },
+  {
+    "track": "07_lead",
+    "bar": 8,
+    "step": 8,
+    "pitch": 84,
+    "duration": 2,
+    "velocity": 115,
+    "section": "CONTESTACION_SOLISTA"
+  },
+  {
+    "track": "07_lead",
+    "bar": 8,
+    "step": 11,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 115,
+    "section": "CONTESTACION_SOLISTA"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 9,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 9,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 9,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 9,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 9,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 9,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 9,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 9,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 9,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 9,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 9,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 9,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 9,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 9,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 9,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 9,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 9,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 9,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 9,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 9,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 9,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 9,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 9,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 9,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 9,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 9,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 9,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 9,
+    "step": 0,
+    "pitch": 81,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 9,
+    "step": 4,
+    "pitch": 85,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 9,
+    "step": 8,
+    "pitch": 83,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 9,
+    "step": 12,
+    "pitch": 81,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 10,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 10,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 10,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 10,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 10,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 10,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 10,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 10,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 10,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 10,
+    "step": 0,
+    "pitch": 50,
+    "duration": 3,
+    "velocity": 100,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 10,
+    "step": 6,
+    "pitch": 57,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 10,
+    "step": 10,
+    "pitch": 62,
+    "duration": 4,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 10,
+    "step": 2,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 10,
+    "step": 2,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 10,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 10,
+    "step": 6,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 10,
+    "step": 6,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 10,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 10,
+    "step": 10,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 10,
+    "step": 10,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 10,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 10,
+    "step": 14,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 10,
+    "step": 14,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 10,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 10,
+    "step": 2,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 10,
+    "step": 6,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 10,
+    "step": 10,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 10,
+    "step": 14,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 10,
+    "step": 0,
+    "pitch": 86,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 10,
+    "step": 4,
+    "pitch": 90,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 10,
+    "step": 8,
+    "pitch": 88,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 10,
+    "step": 12,
+    "pitch": 86,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 11,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 11,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 11,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 11,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 11,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 11,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 11,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 11,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 11,
+    "step": 0,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 100,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 11,
+    "step": 6,
+    "pitch": 59,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 11,
+    "step": 10,
+    "pitch": 64,
+    "duration": 4,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 11,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 11,
+    "step": 2,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 11,
+    "step": 2,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 11,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 11,
+    "step": 6,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 11,
+    "step": 6,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 11,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 11,
+    "step": 10,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 11,
+    "step": 10,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 11,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 11,
+    "step": 14,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 11,
+    "step": 14,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 11,
+    "step": 2,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 11,
+    "step": 6,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 11,
+    "step": 10,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 11,
+    "step": 14,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 11,
+    "step": 0,
+    "pitch": 88,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 11,
+    "step": 4,
+    "pitch": 92,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 11,
+    "step": 8,
+    "pitch": 90,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 11,
+    "step": 12,
+    "pitch": 88,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 12,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 12,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 12,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 12,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 12,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 12,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 12,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 12,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 12,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 12,
+    "step": 8,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 90,
+    "section": "VERSO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 12,
+    "step": 9,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 94,
+    "section": "VERSO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 12,
+    "step": 10,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 98,
+    "section": "VERSO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 12,
+    "step": 11,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 102,
+    "section": "VERSO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 12,
+    "step": 12,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 106,
+    "section": "VERSO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 12,
+    "step": 13,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 110,
+    "section": "VERSO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 12,
+    "step": 14,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 114,
+    "section": "VERSO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 12,
+    "step": 15,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 118,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 12,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 12,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "VERSO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 12,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 12,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 12,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 12,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 12,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 12,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 12,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 12,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 12,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 12,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 12,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 12,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 12,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 12,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 12,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 12,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 12,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "VERSO"
+  },
+  {
+    "track": "07_lead",
+    "bar": 12,
+    "step": 2,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 115,
+    "section": "CONTESTACION_SOLISTA"
+  },
+  {
+    "track": "07_lead",
+    "bar": 12,
+    "step": 5,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 115,
+    "section": "CONTESTACION_SOLISTA"
+  },
+  {
+    "track": "07_lead",
+    "bar": 12,
+    "step": 8,
+    "pitch": 84,
+    "duration": 2,
+    "velocity": 115,
+    "section": "CONTESTACION_SOLISTA"
+  },
+  {
+    "track": "07_lead",
+    "bar": 12,
+    "step": 11,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 115,
+    "section": "CONTESTACION_SOLISTA"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 13,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 13,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 13,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 13,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 13,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 13,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 13,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 13,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 13,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 13,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 13,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 13,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 13,
+    "step": 2,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 13,
+    "step": 6,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 13,
+    "step": 10,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 13,
+    "step": 14,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 13,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 13,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 13,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 13,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 13,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 13,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 13,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 13,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 13,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 13,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 13,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 13,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 13,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 13,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 13,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 13,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 13,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 13,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 13,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 13,
+    "step": 0,
+    "pitch": 81,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 13,
+    "step": 4,
+    "pitch": 85,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 13,
+    "step": 8,
+    "pitch": 83,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 13,
+    "step": 12,
+    "pitch": 81,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 14,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 14,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 14,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 14,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 14,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 14,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 14,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 14,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 14,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 14,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 14,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 14,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 14,
+    "step": 2,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 14,
+    "step": 6,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 14,
+    "step": 10,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 14,
+    "step": 14,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 14,
+    "step": 0,
+    "pitch": 50,
+    "duration": 3,
+    "velocity": 100,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 14,
+    "step": 6,
+    "pitch": 57,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 14,
+    "step": 10,
+    "pitch": 62,
+    "duration": 4,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 14,
+    "step": 2,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 14,
+    "step": 2,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 14,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 14,
+    "step": 6,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 14,
+    "step": 6,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 14,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 14,
+    "step": 10,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 14,
+    "step": 10,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 14,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 14,
+    "step": 14,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 14,
+    "step": 14,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 14,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 14,
+    "step": 2,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 14,
+    "step": 6,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 14,
+    "step": 10,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 14,
+    "step": 14,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 14,
+    "step": 0,
+    "pitch": 86,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 14,
+    "step": 4,
+    "pitch": 90,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 14,
+    "step": 8,
+    "pitch": 88,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 14,
+    "step": 12,
+    "pitch": 86,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 15,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 15,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 15,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 15,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 15,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 15,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 15,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 15,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 15,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 15,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 15,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 15,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 15,
+    "step": 2,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 15,
+    "step": 6,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 15,
+    "step": 10,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 15,
+    "step": 14,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 15,
+    "step": 0,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 100,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 15,
+    "step": 6,
+    "pitch": 59,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 15,
+    "step": 10,
+    "pitch": 64,
+    "duration": 4,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 15,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 15,
+    "step": 2,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 15,
+    "step": 2,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 15,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 15,
+    "step": 6,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 15,
+    "step": 6,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 15,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 15,
+    "step": 10,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 15,
+    "step": 10,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 15,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 15,
+    "step": 14,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 15,
+    "step": 14,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 15,
+    "step": 2,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 15,
+    "step": 6,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 15,
+    "step": 10,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 15,
+    "step": 14,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 15,
+    "step": 0,
+    "pitch": 88,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 15,
+    "step": 4,
+    "pitch": 92,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 15,
+    "step": 8,
+    "pitch": 90,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 15,
+    "step": 12,
+    "pitch": 88,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 16,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 16,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 16,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 16,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 16,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 16,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 16,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 16,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 16,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 16,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 16,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 16,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 16,
+    "step": 2,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 16,
+    "step": 6,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 16,
+    "step": 10,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 16,
+    "step": 14,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 16,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 16,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 16,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 16,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 16,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 16,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 16,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 16,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 16,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 16,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 16,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 16,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 16,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 16,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 16,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 16,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 16,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 16,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 16,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 16,
+    "step": 0,
+    "pitch": 81,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 16,
+    "step": 4,
+    "pitch": 85,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 16,
+    "step": 8,
+    "pitch": 83,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 16,
+    "step": 12,
+    "pitch": 81,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 17,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 17,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 17,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 17,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 17,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 17,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 17,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 17,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 17,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 17,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 17,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 17,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 17,
+    "step": 2,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 17,
+    "step": 6,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 17,
+    "step": 10,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 17,
+    "step": 14,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 17,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 17,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 17,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 17,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 17,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 17,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 17,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 17,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 17,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 17,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 17,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 17,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 17,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 17,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 17,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 17,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 17,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 17,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 17,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 17,
+    "step": 0,
+    "pitch": 81,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 17,
+    "step": 4,
+    "pitch": 85,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 17,
+    "step": 8,
+    "pitch": 83,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 17,
+    "step": 12,
+    "pitch": 81,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 18,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 18,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 18,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 18,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 18,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 18,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 18,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 18,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 18,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 18,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 18,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 18,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 18,
+    "step": 2,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 18,
+    "step": 6,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 18,
+    "step": 10,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 18,
+    "step": 14,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 18,
+    "step": 0,
+    "pitch": 50,
+    "duration": 3,
+    "velocity": 100,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 18,
+    "step": 6,
+    "pitch": 57,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 18,
+    "step": 10,
+    "pitch": 62,
+    "duration": 4,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 18,
+    "step": 2,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 18,
+    "step": 2,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 18,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 18,
+    "step": 6,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 18,
+    "step": 6,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 18,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 18,
+    "step": 10,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 18,
+    "step": 10,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 18,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 18,
+    "step": 14,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 18,
+    "step": 14,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 18,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 18,
+    "step": 2,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 18,
+    "step": 6,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 18,
+    "step": 10,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 18,
+    "step": 14,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 18,
+    "step": 0,
+    "pitch": 86,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 18,
+    "step": 4,
+    "pitch": 90,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 18,
+    "step": 8,
+    "pitch": 88,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 18,
+    "step": 12,
+    "pitch": 86,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 19,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 19,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 19,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 19,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 19,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 19,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 19,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 19,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 19,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 19,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 19,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 19,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 19,
+    "step": 2,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 19,
+    "step": 6,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 19,
+    "step": 10,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 19,
+    "step": 14,
+    "pitch": 76,
+    "duration": 1,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 19,
+    "step": 0,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 100,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 19,
+    "step": 6,
+    "pitch": 59,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 19,
+    "step": 10,
+    "pitch": 64,
+    "duration": 4,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 19,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 19,
+    "step": 2,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 19,
+    "step": 2,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 19,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 19,
+    "step": 6,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 19,
+    "step": 6,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 19,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 19,
+    "step": 10,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 19,
+    "step": 10,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 19,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 19,
+    "step": 14,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 19,
+    "step": 14,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 19,
+    "step": 2,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 19,
+    "step": 6,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 19,
+    "step": 10,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 19,
+    "step": 14,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 19,
+    "step": 0,
+    "pitch": 88,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 19,
+    "step": 4,
+    "pitch": 92,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 19,
+    "step": 8,
+    "pitch": 90,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 19,
+    "step": 12,
+    "pitch": 88,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 20,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 20,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 20,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 20,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 20,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 20,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 20,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 20,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 20,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 20,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 20,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 20,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 20,
+    "step": 8,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 90,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 20,
+    "step": 9,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 94,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 20,
+    "step": 10,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 98,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 20,
+    "step": 11,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 102,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 20,
+    "step": 12,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 106,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 20,
+    "step": 13,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 110,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 20,
+    "step": 14,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 114,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 20,
+    "step": 15,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 118,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 20,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 20,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 20,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 20,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 20,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 20,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 20,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 20,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 20,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 20,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 20,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 20,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 20,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 20,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 20,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 20,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 20,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 20,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "06_guitar",
+    "bar": 20,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 80,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 20,
+    "step": 0,
+    "pitch": 81,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 20,
+    "step": 4,
+    "pitch": 85,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 20,
+    "step": 8,
+    "pitch": 83,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "08_vocals",
+    "bar": 20,
+    "step": 12,
+    "pitch": 81,
+    "duration": 3,
+    "velocity": 95,
+    "section": "ESTRIBILLO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 21,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 21,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 21,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 21,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 21,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 21,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 21,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 21,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 21,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 21,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 21,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 21,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 21,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 21,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 21,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 21,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 21,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 21,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 21,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 21,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 21,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 21,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 21,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 21,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 21,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 21,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 21,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 21,
+    "step": 0,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 21,
+    "step": 2,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 21,
+    "step": 4,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 21,
+    "step": 6,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 21,
+    "step": 8,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 21,
+    "step": 10,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 21,
+    "step": 12,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 21,
+    "step": 14,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 22,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 22,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 22,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 22,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 22,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 22,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 22,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 22,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 22,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 22,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 22,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 22,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 22,
+    "step": 0,
+    "pitch": 50,
+    "duration": 3,
+    "velocity": 100,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 22,
+    "step": 6,
+    "pitch": 57,
+    "duration": 3,
+    "velocity": 95,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 22,
+    "step": 10,
+    "pitch": 62,
+    "duration": 4,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 22,
+    "step": 2,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 22,
+    "step": 2,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 22,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 22,
+    "step": 6,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 22,
+    "step": 6,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 22,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 22,
+    "step": 10,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 22,
+    "step": 10,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 22,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 22,
+    "step": 14,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 22,
+    "step": 14,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 22,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 22,
+    "step": 0,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 22,
+    "step": 2,
+    "pitch": 90,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 22,
+    "step": 4,
+    "pitch": 91,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 22,
+    "step": 6,
+    "pitch": 93,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 22,
+    "step": 8,
+    "pitch": 91,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 22,
+    "step": 10,
+    "pitch": 90,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 22,
+    "step": 12,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 22,
+    "step": 14,
+    "pitch": 90,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 23,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 23,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 23,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 23,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 23,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 23,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 23,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 23,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 23,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 23,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 23,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 23,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 23,
+    "step": 0,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 100,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 23,
+    "step": 6,
+    "pitch": 59,
+    "duration": 3,
+    "velocity": 95,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 23,
+    "step": 10,
+    "pitch": 64,
+    "duration": 4,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 23,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 23,
+    "step": 2,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 23,
+    "step": 2,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 23,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 23,
+    "step": 6,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 23,
+    "step": 6,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 23,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 23,
+    "step": 10,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 23,
+    "step": 10,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 23,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 23,
+    "step": 14,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 23,
+    "step": 14,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 23,
+    "step": 0,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 23,
+    "step": 2,
+    "pitch": 92,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 23,
+    "step": 4,
+    "pitch": 93,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 23,
+    "step": 6,
+    "pitch": 95,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 23,
+    "step": 8,
+    "pitch": 93,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 23,
+    "step": 10,
+    "pitch": 92,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 23,
+    "step": 12,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 23,
+    "step": 14,
+    "pitch": 92,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 24,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 24,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 24,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 24,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 24,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 24,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 24,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 24,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 24,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 24,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 24,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 24,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 24,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 24,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 24,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 24,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 24,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 24,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 24,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 24,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 24,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 24,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 24,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 24,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 24,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 24,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 24,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 24,
+    "step": 0,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 24,
+    "step": 2,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 24,
+    "step": 4,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 24,
+    "step": 6,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 24,
+    "step": 8,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 24,
+    "step": 10,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 24,
+    "step": 12,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 24,
+    "step": 14,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 25,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 25,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 25,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 25,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 25,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 25,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 25,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 25,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 25,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 25,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 25,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 25,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 25,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 25,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 25,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 25,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 25,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 25,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 25,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 25,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 25,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 25,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 25,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 25,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 25,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 25,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 25,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 25,
+    "step": 0,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 25,
+    "step": 2,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 25,
+    "step": 4,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 25,
+    "step": 6,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 25,
+    "step": 8,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 25,
+    "step": 10,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 25,
+    "step": 12,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 25,
+    "step": 14,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 26,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 26,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 26,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 26,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 26,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 26,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 26,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 26,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 26,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 26,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 26,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 26,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 26,
+    "step": 0,
+    "pitch": 50,
+    "duration": 3,
+    "velocity": 100,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 26,
+    "step": 6,
+    "pitch": 57,
+    "duration": 3,
+    "velocity": 95,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 26,
+    "step": 10,
+    "pitch": 62,
+    "duration": 4,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 26,
+    "step": 2,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 26,
+    "step": 2,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 26,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 26,
+    "step": 6,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 26,
+    "step": 6,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 26,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 26,
+    "step": 10,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 26,
+    "step": 10,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 26,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 26,
+    "step": 14,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 26,
+    "step": 14,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 26,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 26,
+    "step": 0,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 26,
+    "step": 2,
+    "pitch": 90,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 26,
+    "step": 4,
+    "pitch": 91,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 26,
+    "step": 6,
+    "pitch": 93,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 26,
+    "step": 8,
+    "pitch": 91,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 26,
+    "step": 10,
+    "pitch": 90,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 26,
+    "step": 12,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 26,
+    "step": 14,
+    "pitch": 90,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 27,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 27,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 27,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 27,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 27,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 27,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 27,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 27,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 27,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 27,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 27,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 27,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 27,
+    "step": 0,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 100,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 27,
+    "step": 6,
+    "pitch": 59,
+    "duration": 3,
+    "velocity": 95,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 27,
+    "step": 10,
+    "pitch": 64,
+    "duration": 4,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 27,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 27,
+    "step": 2,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 27,
+    "step": 2,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 27,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 27,
+    "step": 6,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 27,
+    "step": 6,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 27,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 27,
+    "step": 10,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 27,
+    "step": 10,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 27,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 27,
+    "step": 14,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 27,
+    "step": 14,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 27,
+    "step": 0,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 27,
+    "step": 2,
+    "pitch": 92,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 27,
+    "step": 4,
+    "pitch": 93,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 27,
+    "step": 6,
+    "pitch": 95,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 27,
+    "step": 8,
+    "pitch": 93,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 27,
+    "step": 10,
+    "pitch": 92,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 27,
+    "step": 12,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 27,
+    "step": 14,
+    "pitch": 92,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 28,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 28,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 28,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 28,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 28,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 28,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 28,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 28,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 28,
+    "step": 0,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 28,
+    "step": 4,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 28,
+    "step": 8,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "02_bombo",
+    "bar": 28,
+    "step": 12,
+    "pitch": 36,
+    "duration": 2,
+    "velocity": 115,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 28,
+    "step": 8,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 90,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 28,
+    "step": 9,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 94,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 28,
+    "step": 10,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 98,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 28,
+    "step": 11,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 102,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 28,
+    "step": 12,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 106,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 28,
+    "step": 13,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 28,
+    "step": 14,
+    "pitch": 65,
+    "duration": 1,
+    "velocity": 114,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "03_timbales",
+    "bar": 28,
+    "step": 15,
+    "pitch": 67,
+    "duration": 1,
+    "velocity": 118,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 28,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 28,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "04_bass",
+    "bar": 28,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 28,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 28,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 28,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 28,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 28,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 28,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 28,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 28,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 28,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 28,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 28,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "05_piano",
+    "bar": 28,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 28,
+    "step": 0,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 28,
+    "step": 2,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 28,
+    "step": 4,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 28,
+    "step": 6,
+    "pitch": 88,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 28,
+    "step": 8,
+    "pitch": 86,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 28,
+    "step": 10,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 28,
+    "step": 12,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "07_lead",
+    "bar": 28,
+    "step": 14,
+    "pitch": 85,
+    "duration": 2,
+    "velocity": 110,
+    "section": "TRAMO_BAILABLE"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 29,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 29,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 29,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 29,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 29,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 29,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 29,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 29,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 29,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "OUTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 29,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "OUTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 29,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 29,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 29,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 29,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 29,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 29,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 29,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 29,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 29,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 29,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 29,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 29,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 29,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 30,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 30,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 30,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 30,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 30,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 30,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 30,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 30,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 30,
+    "step": 0,
+    "pitch": 50,
+    "duration": 3,
+    "velocity": 100,
+    "section": "OUTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 30,
+    "step": 6,
+    "pitch": 57,
+    "duration": 3,
+    "velocity": 95,
+    "section": "OUTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 30,
+    "step": 10,
+    "pitch": 62,
+    "duration": 4,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 30,
+    "step": 2,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 30,
+    "step": 2,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 30,
+    "step": 2,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 30,
+    "step": 6,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 30,
+    "step": 6,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 30,
+    "step": 6,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 30,
+    "step": 10,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 30,
+    "step": 10,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 30,
+    "step": 10,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 30,
+    "step": 14,
+    "pitch": 74,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 30,
+    "step": 14,
+    "pitch": 78,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 30,
+    "step": 14,
+    "pitch": 81,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 31,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 31,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 31,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 31,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 31,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 31,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 31,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 31,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 31,
+    "step": 0,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 100,
+    "section": "OUTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 31,
+    "step": 6,
+    "pitch": 59,
+    "duration": 3,
+    "velocity": 95,
+    "section": "OUTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 31,
+    "step": 10,
+    "pitch": 64,
+    "duration": 4,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 31,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 31,
+    "step": 2,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 31,
+    "step": 2,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 31,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 31,
+    "step": 6,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 31,
+    "step": 6,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 31,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 31,
+    "step": 10,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 31,
+    "step": 10,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 31,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 31,
+    "step": 14,
+    "pitch": 80,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 31,
+    "step": 14,
+    "pitch": 83,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 32,
+    "step": 0,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 32,
+    "step": 2,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 32,
+    "step": 4,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 32,
+    "step": 6,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 32,
+    "step": 8,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 32,
+    "step": 10,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 32,
+    "step": 12,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 80,
+    "section": "OUTRO"
+  },
+  {
+    "track": "01_guiro",
+    "bar": 32,
+    "step": 14,
+    "pitch": 70,
+    "duration": 1,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 32,
+    "step": 0,
+    "pitch": 45,
+    "duration": 3,
+    "velocity": 100,
+    "section": "OUTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 32,
+    "step": 6,
+    "pitch": 52,
+    "duration": 3,
+    "velocity": 95,
+    "section": "OUTRO"
+  },
+  {
+    "track": "04_bass",
+    "bar": 32,
+    "step": 10,
+    "pitch": 57,
+    "duration": 4,
+    "velocity": 105,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 32,
+    "step": 2,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 32,
+    "step": 2,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 32,
+    "step": 2,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 32,
+    "step": 6,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 32,
+    "step": 6,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 32,
+    "step": 6,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 32,
+    "step": 10,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 32,
+    "step": 10,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 32,
+    "step": 10,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 32,
+    "step": 14,
+    "pitch": 69,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 32,
+    "step": 14,
+    "pitch": 73,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  },
+  {
+    "track": "05_piano",
+    "bar": 32,
+    "step": 14,
+    "pitch": 76,
+    "duration": 2,
+    "velocity": 85,
+    "section": "OUTRO"
+  }
+]

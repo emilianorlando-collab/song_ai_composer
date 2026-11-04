@@ -1,0 +1,20 @@
+{
+  "session_name": "el_parrandero_del_futuro",
+  "master_file": "outputs/el_parrandero_del_futuro/el_parrandero_del_futuro_MASTER.wav",
+  "stems_directory": "outputs/el_parrandero_del_futuro/stems",
+  "total_canales": 8,
+  "sample_rate": 44100,
+  "duracion_segundos": 73.14,
+  "master_peak_dbfs": -0.18000000715255737,
+  "master_rms_dbfs": -11.260000228881836,
+  "canales_procesados": [
+    "01_guiro",
+    "02_bombo",
+    "03_timbales",
+    "04_bass",
+    "05_piano",
+    "06_guitar",
+    "07_lead",
+    "08_vocals"
+  ]
+}
